@@ -159,6 +159,20 @@ Returns a Promise that will load the README.md file from the specified GitHub re
 - `org`: GitHub username or organization of the README's repository
 - `repo` (optional): name of the README's repository (if not specified, `getReadme` will assume the first parameter is a comlete repository URL)
 
+```
+iA.gitHub.getReadme("jinsanity07git", "uKnow")
+
+
+iA.cache.getItem('https://api.github.com/repos/jinsanity07git/uKnow/readme')
+
+d3.html('https://api.github.com/repos/jinsanity07git/uKnow/readme')
+//d3 to decompe the apiURL
+
+d3.html('https://api.github.com/repos/jinsanity07git/uKnow/readme').header('Accept', 'application/vnd.github.VERSION.html')
+```
+
+
+
 ## License
 
 MIT

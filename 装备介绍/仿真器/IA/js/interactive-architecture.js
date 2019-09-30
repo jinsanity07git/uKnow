@@ -1,7 +1,12 @@
 var iA = function () {
 
   var utils = {
+    /** function annotation
+     * @fragmentFromString {  change htmlStr to [object DocumentFragment]
+     * }
+     */
     fragmentFromString: function (htmlStr) {
+      // console.log(htmlStr)
       return document.createRange().createContextualFragment(htmlStr)
     },
 
@@ -12,16 +17,30 @@ var iA = function () {
 
   var cache = {
     ttl: 60 * 60 * 1000,
-
+    /** function annotation
+     * @getItem {  change htmlStr to [object DocumentFragment
+     * "timestamp":1569528942146,"data":{"success":true,"htmlStr": <div> </div>]
+     * from localStorage
+     * }
+     */
     getItem: function (key) {
       try {
         var str = localStorage.getItem(key)
+        // console.log("localStorage: is a dict, index the key, return a sting of Dict" + localStorage)
+        // console.log("key:" + key)
+        // console.log("str:" + str)
         var obj = JSON.parse(str)
+        // window.dict= obj
+//         window.dict == 
+//         data: {success: true, htmlStr: "<div xmlns="http://www.w3.org/1999/xhtml" id="read…e diagram</li>↵</ul>↵</li>↵</ul>↵</article></div>"}
+// timestamp: 1569528942146
 
+        // console.log("obj:" + obj.data)
         var timestamp = Date.now()
 
         if (obj.timestamp > 0 && obj.timestamp + this.ttl > timestamp) {
           return obj.data
+          
         } else {
           return undefined
         }
@@ -89,14 +108,27 @@ var iA = function () {
       }
 
       var _this = this
-
+      
       return new Promise(function (resolve, reject) {
         var contents
-        var apiUrl = 'https://api.github.com/repos/' + org + '/' + repo + '/readme'
-        var data = cache.getItem(apiUrl)
 
+        var apiUrl = 'https://api.github.com/repos/' + org + '/' + repo + '/readme'
+        // the api should be accessible 
+        //  getItem from api
+        var data = cache.getItem(apiUrl)
+        // console.log(apiUrl)
+        // console.log("data : " + data)
+        // console.log("data htmlStr: " + data.htmlStr)
         if (data && data.success && data.htmlStr) {
+        // The Promise.resolve() method returns a Promise object that is resolved with a given value.
           resolve(_this.fixRelativeLinks(org, repo, utils.fragmentFromString(data.htmlStr)))
+          // console.log(apiUrl)
+          // console.log(org,repo)
+          // console.log(data.htmlStr)
+          console.log("utils:" + utils.fragmentFromString(data.htmlStr))
+          window.htmStr = utils.fragmentFromString(data.htmlStr)
+          // console.log("fixRelativeLinks:" + _this.fixRelativeLinks(org, repo, utils.fragmentFromString(data.htmlStr)))
+          // console.log(data)
         } else if (data && !data.success) {
           reject(data.error)
         } else {
@@ -113,19 +145,24 @@ var iA = function () {
                   errorMessage = errorMessage + ': ' + response.message + ' (' + status + ')'
                 } catch (e) {
                 }
-
+                //  setItem() before getitem()
                 cache.setItem(apiUrl, {
                   success: false,
                   error: errorMessage
                 })
                 reject(errorMessage)
               } else {
+                //  if get request success
+                console.log("html: ")
                 htmlStr = new XMLSerializer().serializeToString(html)
+                console.log("html: " + html)
                 cache.setItem(apiUrl, {
                   success: true,
                   htmlStr: htmlStr
                 })
                 resolve(_this.fixRelativeLinks(org, repo, html))
+
+                // console.log(d3)
               }
             })
         }
@@ -252,7 +289,7 @@ var iA = function () {
 
     create: function (container, svgUrl, userConfig, callback) {
       var _this = this
-
+      console.log(_this)
       var defaultConfig = {
         element: 'path',
         getHref: function (link) {
@@ -301,6 +338,7 @@ var iA = function () {
         })
 
         var links = svg.querySelectorAll('a')
+        console.log(links)
         Array.prototype.forEach.call(links, function (link) {
           var href = config.getHref(link)
 
@@ -311,13 +349,19 @@ var iA = function () {
             if (_this.currentPopupHref !== href) {
               _this.hidePopup()
               var contents = config.getPopupContents(href, link)
+              // console.log("contents")
+              // console.log(contents)
               var contentsType = utils.objectType(contents)
-
+              // console.log("content types")
+              // console.log(contentsType)
               if (contentsType === 'Promise') {
                 contents
                   .then(function (contents) {
                     _this.createPopup(svg, href, _this.getPopupLocation(link), contents)
+                    // console.log(_this.createPopup(svg, href, _this.getPopupLocation(link), contents))
                   })
+
+                  // createPopup for each md link
                   .catch(function (err) {
                     var message = err || err.message
                     var errorContents = '<span class="interactive-architecture-popup-error">' +
