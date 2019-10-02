@@ -26,9 +26,9 @@ var iA = function () {
     getItem: function (key) {
       try {
         var str = localStorage.getItem(key)
-        // console.log("localStorage: is a dict, index the key, return a sting of Dict" + localStorage)
-        // console.log("key:" + key)
-        // console.log("str:" + str)
+        console.log("localStorage: is a dict, index the key, return a sting of Dict" + localStorage)
+        console.log("key:" + key)
+        console.log("str:" + str)
         var obj = JSON.parse(str)
         // window.dict= obj
 //         window.dict == 
@@ -63,13 +63,24 @@ var iA = function () {
 
   var gitHub = {
     hrefToOrgRepo: function (href) {
-      var match = href.match(/github\.com\/(.*)\/(.*)\/?$/)
+      console.log(href)
+      // var match = href.match(/github\.com\/(.*)\/(.*)\/?$/)
+      var match = href.match(/github\.com\/(.*)\/(.*)\/?(\/\w*\/master)\/(.*)/)
+      var path = match[4]
+
       var org = match[1]
       var repo = match[2]
+      console.log("path,org,repo:"+ path +'###'+ org  +'###' + repo)
 
+      // https://github.com/jinsanity07git/uKnow
+      // {
+      //   org: jinsanity07git,
+      //   repo: uKnow
+      // }
       return {
         org: org,
-        repo: repo
+        repo: repo  ,
+        path:path ,
       }
     },
 
@@ -80,12 +91,15 @@ var iA = function () {
       }
 
       return url
+            // console.log("makeAbsolute:" + url)
     },
 
-    fixRelativeLinks: function (org, repo, html) {
+    fixRelativeLinks: function (org, repo,path, html) {
       if (html) {
-        var baseUrl = 'https://raw.githubusercontent.com/' + org + '/' + repo + '/master/'
+        var baseUrl = 'https://raw.githubusercontent.com/' + org + '/' + repo + '/master/' + path
+        console.log("baseUrl:" + baseUrl)
 
+        //  https://raw.githubusercontent.com/jinsanity07git/uKnow/master/README.md
         var srcs = html.querySelectorAll('*[src]')
         for (var i = 0; i < srcs.length; ++i) {
           srcs[i].src = this.makeAbsolute(baseUrl, srcs[i].src)
@@ -94,17 +108,27 @@ var iA = function () {
         var hrefs = html.querySelectorAll('*[href]')
         for (var i = 0; i < hrefs.length; ++i) {
           hrefs[i].href = this.makeAbsolute(baseUrl, hrefs[i].href)
+          // console.log( "hrefs:" +    hrefs[i])
         }
+        // console.log("fixRelativeLinks_html:" + html)
+        // console.log( "srcs[0]:" +   srcs[0])
+        // console.log( "hrefs[0]:" +   hrefs[0])
+        // console.log( "hrefs[1]:" +   hrefs[1])
+        // console.log( "hrefs[2]:" +   hrefs[2])
+        // console.log( "hrefs[3]:" +   hrefs[3]);
+        // console.log( "hrefs[3]:" +   hrefs[3]);
       }
-
+      
       return html
+
     },
 
-    getReadme: function (org, repo) {
+    getReadme: function (org, repo,path) {
       if (repo === undefined) {
         var orgRepo = this.hrefToOrgRepo(org)
-        org = orgRepo.org
+        org  = orgRepo.org
         repo = orgRepo.repo
+        path = orgRepo.path
       }
 
       var _this = this
@@ -112,26 +136,32 @@ var iA = function () {
       return new Promise(function (resolve, reject) {
         var contents
 
-        var apiUrl = 'https://api.github.com/repos/' + org + '/' + repo + '/readme'
+        // var apiUrl = 'https://api.github.com/repos/' + org + '/' + repo + '/readme'
+        var apiUrl = 'https://api.github.com/repos/' + org + '/' + repo + '/contents/'  + path
+
+        // var apiUrl_Con = 'https://api.github.com/repos/' + org + '/' + repo + '/readme'
         // the api should be accessible 
         //  getItem from api
         var data = cache.getItem(apiUrl)
-        // console.log(apiUrl)
-        // console.log("data : " + data)
+        console.log("apiUrl : " +  apiUrl)
+        console.log("data : " + data)
+        window.data = data
+
         // console.log("data htmlStr: " + data.htmlStr)
         if (data && data.success && data.htmlStr) {
         // The Promise.resolve() method returns a Promise object that is resolved with a given value.
-          resolve(_this.fixRelativeLinks(org, repo, utils.fragmentFromString(data.htmlStr)))
+          resolve(_this.fixRelativeLinks(org, repo,path, utils.fragmentFromString(data.htmlStr)))
           // console.log(apiUrl)
           // console.log(org,repo)
-          // console.log(data.htmlStr)
-          console.log("utils:" + utils.fragmentFromString(data.htmlStr))
+          console.log( "if html : "+   data.htmlStr)
+          // console.log("utils:" + utils.fragmentFromString(data.htmlStr))
           window.htmStr = utils.fragmentFromString(data.htmlStr)
           // console.log("fixRelativeLinks:" + _this.fixRelativeLinks(org, repo, utils.fragmentFromString(data.htmlStr)))
           // console.log(data)
         } else if (data && !data.success) {
           reject(data.error)
         } else {
+          console.log("else_html:    "  + apiUrl)
           d3.html(apiUrl)
             .header('Accept', 'application/vnd.github.VERSION.html')
             .get(function(err, html) {
@@ -146,6 +176,7 @@ var iA = function () {
                 } catch (e) {
                 }
                 //  setItem() before getitem()
+                // 需要清除缓存来实现新功能
                 cache.setItem(apiUrl, {
                   success: false,
                   error: errorMessage
@@ -153,14 +184,14 @@ var iA = function () {
                 reject(errorMessage)
               } else {
                 //  if get request success
-                console.log("html: ")
+                console.log("html: "+ html)
                 htmlStr = new XMLSerializer().serializeToString(html)
-                console.log("html: " + html)
+                console.log("htmlStr: " + htmlStr)
                 cache.setItem(apiUrl, {
                   success: true,
                   htmlStr: htmlStr
                 })
-                resolve(_this.fixRelativeLinks(org, repo, html))
+                resolve(_this.fixRelativeLinks(org, repo,path, html))
 
                 // console.log(d3)
               }

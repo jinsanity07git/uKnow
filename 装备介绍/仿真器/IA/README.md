@@ -1,5 +1,10 @@
 # interactive-architecture
 
+http://using-d3js.com/ D3 API turorial
+
+* [ReferenceError: fetch is not defined #19](https://github.com/d3/d3-fetch/issues/19) 
+* 
+
 Interactive architecture diagrams for JavaScript.
 
 ## Examples
@@ -169,6 +174,65 @@ d3.html('https://api.github.com/repos/jinsanity07git/uKnow/readme')
 //d3 to decompe the apiURL
 
 d3.html('https://api.github.com/repos/jinsanity07git/uKnow/readme').header('Accept', 'application/vnd.github.VERSION.html')
+```
+
+[Repository Contents API - Contents | GitHub Developer Guide](https://developer.github.com/v3/repos/contents/) 
+
+```
+GET /repos/:owner/:repo/readme
+	api.github.com/repos/   jinsanity07git /uKnow  /readme
+	
+	api.github.com/repos/jinsanity07git/uKnow/contents/readme
+	
+Get contents
+GET /repos/:owner/:repo/ contents /:path
+
+api.github.com/repos/jinsanity07git/uKnow/contents/uLander/Readme.txt
+api.github.com/repos/jinsanity07git/uKnow/contents/装备介绍/仿真器/仿真器组件介绍.md
+```
+
+hrefToOrgRepo
+
+```
+https://github.com/jinsanity07git/uKnow/blob/master/interactive-architecture-master/README.md
+
+https://github.com/jinsanity07git/uKnow
+```
+
+
+
+
+
+```javascript
+<script> 
+
+	// initializing function to demonstrate match() 
+	// method with "g" para 
+	function matchString() { 
+		var string = "https://github.com/jinsanity07git/uKnow/blob/master/interactive-architecture-master/README.md"; 
+		var result = string.match(/github\.com\/(.*)\/(.*)\/?(\/blob\/master)\/(.*)/); 
+		document.write("Output : " + result); 
+	} 
+    
+    
+    matchString(); 
+	
+</script>					 
+
+
+Output : github.com/jinsanity07git/uKnow/blob/master/interactive-architecture-master/README.md,
+  jinsanity07git,
+  uKnow,
+  /blob/master,
+  interactive-architecture-master/README.md
+```
+
+
+
+console
+
+```
+iA.gitHub.getReadme("https://github.com/jinsanity07git/uKnow/blob/master/interactive-architecture-master/README.md") 
 ```
 
 
