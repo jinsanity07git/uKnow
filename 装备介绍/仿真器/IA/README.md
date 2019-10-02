@@ -1,9 +1,19 @@
 # interactive-architecture
 
-http://using-d3js.com/ D3 API turorial
+技术总结：
 
-* [ReferenceError: fetch is not defined #19](https://github.com/d3/d3-fetch/issues/19) 
-* 
+* 修改github中的API 获取方式 [Repository Contents API - Contents | GitHub Developer Guide](https://developer.github.com/v3/repos/contents/) 
+* 修改re `href.match(/github\.com\/(.*)\/(.*)\/?(\/\w*\/master)\/(.*)/)`
+  * 新增path = match[4]  到 org & repo 出现过的地方
+  * 修改 `fixRelativeLinks` 中的  var baseUrl 
+  * 修改  var apiUrl 
+* 清空cache, 保证新图表的正常运行 
+  * Console  中查看 localStorage进行检验
+
+* 资源：D3学习  http://using-d3js.com/ D3 API turorial
+  * Bug： [ReferenceError: fetch is not defined #19](https://github.com/d3/d3-fetch/issues/19) 
+
+- [ ] 如何添加自动清空cache机制
 
 Interactive architecture diagrams for JavaScript.
 
@@ -229,7 +239,7 @@ Output : github.com/jinsanity07git/uKnow/blob/master/interactive-architecture-ma
 
 
 
-console
+Console
 
 ```
 iA.gitHub.getReadme("https://github.com/jinsanity07git/uKnow/blob/master/interactive-architecture-master/README.md") 
