@@ -1,3 +1,5 @@
+### Problem
+
 The dry unit weight of a soil is $14.8 \; kN/m^3$. Given that $\omega= 17\% $ and $G_s=2.71$, determine the various quantities of the phase diagram shown in the figure for a unit volume of the soil.
 
 ![image-20191007111547467](https://ws4.sinaimg.cn/large/006y8mN6ly1g7q3d51v9fj30jo0fowm6.jpg)
@@ -13,7 +15,9 @@ G_s=2.71  \\
 Constant: \gamma_w =  9.81 \; kN/m^3​ \\
 V = 1 \:( unit \: volume \:of \:the \:soil; \:not\: solid)
 $$
-Solution:
+
+
+### Solution:
 
 1)$W_s, V = 1$
 
@@ -67,4 +71,3 @@ $$
 $$
 V_w = \frac{W_w}{\gamma_w} = \frac{2.516}{9.81} = 0.256 \; m^3
 $$
-

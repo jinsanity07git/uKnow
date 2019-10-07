@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Interactive Architecture</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="../js/d3.v4.min.js" charset="utf-8"></script>
+  <script src="../js/interactive-architecture.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="../css/interactive-architecture.css">
+  <link rel="stylesheet" href="../css/markdown-popup.css">
+  <style>
+    body {
+      margin: 0;
+      width: 100%;
+      font-size: 18px;
+      line-height: 1.65;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+    body > article {
+      box-sizing: border-box;
+      margin: 0 auto;
+      max-width: 600px;
+    }
+
+    .interactive-architecture a > path {
+      fill: white;
+      stroke-width: 2px;
+    }
+  </style>
+</head>
+<body>
+  <header></header>
+  <article>
+    <p>
+      Example using diagram, using <a href="https://github.com/jinsanity07git/uDev/tree/master/CORSIM%E4%BB%BF%E7%9C%9F%E5%99%A8%E8%A3%85%E5%A4%87%E9%9B%86">interactive-architecture</a>.
+    </p>
+    <div id='architecture'>
+    </div>
+  <article>
+  <script>
+
+  var namespaces = {
+    gh: 'https://github.com/'
+  }
+
+  var config = {
+    getHref: function (link) {
+      return link.getAttribute('xl:href')
+    },
+    getPopupContents: function (href, link) {
+      if (href.indexOf(namespaces.gh) >= 0) {
+        return iA.gitHub.getReadme(href)
+      }
+    }
+  }
+  console.log(config)
+  //  architecture create() function 
+  // last step draw every element in canvas
+  iA.architecture.create('#architecture', 'Quiz2.svg', config)
+  </script>
+</body>
+</html>
