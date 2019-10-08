@@ -18,6 +18,31 @@
 
 ##### 2. React &  JSX
 
+JSX is a templating engine
+
+- Some differences in prop names (className)
+- Make sure you close all HTML 
+
+Component is a chunk of modular code used for rendering HTML in React
+
+- Has lifecycle events, {variables} can be passed in
+- Descriptive error messages help you remember to close tags, etc
+- You can loop variables
+  - methods
+  - Interface updates
+  - rendering
+  - binding
+  - Multiple components
+
+- Attach events to onClick or onChange handlers 
+
+ES6, ES7 syntax
+
+- .map(), .ﬁlter(), const, () => {}
+- Try to get used to using this
+
+
+
 3. State props
 4. Data Libraries
 5. Actions, Reducers, Redux
