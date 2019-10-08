@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="89 158 1621 1828" width="1621" height="1828">
+  <defs>
+    <font-face font-family="Verdana" font-size="14.8" panose-1="2 11 8 4 3 5 4 4 2 4" units-per-em="1000" underline-position="-67.87109" underline-thickness="103.02734" slope="0" x-height="548.33984" cap-height="727.0508" ascent="1005.3711" descent="-209.96094" font-weight="700">
+      <font-face-src>
+        <font-face-name name="Verdana-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Times" font-size="12" panose-1="0 0 5 0 0 0 0 2 0 0" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="453.6133" cap-height="661.6211" ascent="750" descent="-250" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Times-Roman"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-5 -3 6 6" markerWidth="6" markerHeight="6" color="#7f8080">
+      <g>
+        <path d="M -3.7333333 0 L 0 1.4 L 0 -1.4 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#7f8080">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_3" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 6 6" markerWidth="6" markerHeight="6" color="#235e00">
+      <g>
+        <path d="M 3.2 0 L 0 -1.2 L 0 1.2 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_4" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-5 -3 6 6" markerWidth="6" markerHeight="6" color="#005c5d">
+      <g>
+        <path d="M -3.7333333 0 L 0 1.4 L 0 -1.4 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="30" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.11.3 
+    <dc:date>2019-10-07 19:24:39 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" x="89" y="158" width="1621" height="1828"/>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_124">
+        <rect x="497.0796" y="1488.187" width="554.77835" height="487" id="path"/>
+        <clipPath id="clip_path">
+          <use xl:href="#path"/>
+        </clipPath>
+        <g clip-path="url(#clip_path)">
+          <image xl:href="image39.png" width="442" height="388" transform="translate(497.0796 1488.187) scale(1.2551546)"/>
+        </g>
+      </g>
+      <g id="Graphic_170">
+        <path d="M 1046.6765 1480 L 1147.2113 1953.6928 L 1549.6113 1953.6928 L 1449.0765 1480 L 1453.7976 1480 L 1691.3976 1269 L 740.9976 1269 L 503.3976 1480 Z" fill="white"/>
+        <path d="M 1046.6765 1480 L 1147.2113 1953.6928 L 1549.6113 1953.6928 L 1449.0765 1480 L 1453.7976 1480 L 1691.3976 1269 L 740.9976 1269 L 503.3976 1480 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_150">
+        <path d="M 1004.7 823.3809 L 1167.3 823.3809 C 1221.5 823.3809 1248.6 823.3809 1281.12 825.9281 C 1308.22 828.4754 1335.32 834.8436 1346.16 841.2117 C 1357 848.8535 1357 855.2217 1357 867.958 L 1357 906.167 C 1357 918.9033 1357 925.2715 1346.16 932.9133 C 1335.32 939.2814 1308.22 945.6496 1281.12 948.1969 C 1248.6 950.7441 1221.5 950.7441 1167.3 950.7441 L 1004.7 950.7441 C 950.5 950.7441 923.4 950.7441 890.88 948.1969 C 863.78 945.6496 836.68 939.2814 825.84 932.9133 C 815 925.2715 815 918.9033 815 906.167 L 815 867.958 C 815 855.2217 815 848.8535 825.84 841.2117 C 836.68 834.8436 863.78 828.4754 890.88 825.9281 C 923.4 823.3809 950.5 823.3809 1004.7 823.3809 M 1004.7 823.3809" fill="white"/>
+        <path d="M 1004.7 823.3809 L 1167.3 823.3809 C 1221.5 823.3809 1248.6 823.3809 1281.12 825.9281 C 1308.22 828.4754 1335.32 834.8436 1346.16 841.2117 C 1357 848.8535 1357 855.2217 1357 867.958 L 1357 906.167 C 1357 918.9033 1357 925.2715 1346.16 932.9133 C 1335.32 939.2814 1308.22 945.6496 1281.12 948.1969 C 1248.6 950.7441 1221.5 950.7441 1167.3 950.7441 L 1004.7 950.7441 C 950.5 950.7441 923.4 950.7441 890.88 948.1969 C 863.78 945.6496 836.68 939.2814 825.84 932.9133 C 815 925.2715 815 918.9033 815 906.167 L 815 867.958 C 815 855.2217 815 848.8535 825.84 841.2117 C 836.68 834.8436 863.78 828.4754 890.88 825.9281 C 923.4 823.3809 950.5 823.3809 1004.7 823.3809 M 1004.7 823.3809" stroke="#235e00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_75">
+        <line x1="850.5" y1="895.9039" x2="476" y2="999.3756" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      </g>
+      <g id="Graphic_145">
+        <text transform="translate(891.3398 204.8125)" fill="black">
+          <tspan font-family="Verdana" font-size="14.8" font-weight="700" fill="black" x="0" y="15">Notation</tspan>
+        </text>
+      </g>
+      <g id="Line_73">
+        <line x1="887.9077" y1="858.0625" x2="929.5031" y2="635" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_71">
+        <line x1="889.3966" y1="858.0625" x2="917.117" y2="741.5" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_66">
+        <line x1="433.90445" y1="1107.0062" x2="360" y2="1041.3278" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      </g>
+      <g id="Line_64">
+        <path d="M 431 1132.8632 L 277.3408 1132.8632 C 276.7885 1132.8632 276.3408 1132.4155 276.3408 1131.8632 L 276.3408 1095.2388 C 276.3408 1095.2387 276.3408 1095.2385 276.3408 1095.2384 L 276.5 638.5002 C 276.5 638.50006 276.5 638.49994 276.5 638.4998 L 276.5 628.5" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_60">
+        <line x1="752.4711" y1="1177.5" x2="777.6832" y2="749" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_57">
+        <line x1="750.881" y1="1177.5" x2="757.01665" y2="638" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_54">
+        <line x1="641.5" y1="734.4831" x2="628" y2="733.685" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_50">
+        <line x1="667.0385" y1="692.875" x2="658.44164" y2="635" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_48">
+        <line x1="645.782" y1="697.2458" x2="595" y2="625.5572" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_45">
+        <line x1="435.7079" y1="931.5" x2="413.2104" y2="962" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+      </g>
+      <g id="Line_42">
+        <line x1="480.19077" y1="857.5" x2="519.9154" y2="772" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_39">
+        <line x1="457.2458" y1="857.5" x2="422.7985" y2="636" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_37">
+        <line x1="467.2621" y1="857.5" x2="492.8347" y2="635.5" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_33">
+        <line x1="1229.5493" y1="761.5" x2="1245.5957" y2="982.5" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_31">
+        <line x1="1230.081" y1="761.5" x2="1238.2264" y2="853.5625" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_29">
+        <line x1="1223.4695" y1="694.5" x2="1216.5285" y2="630.75" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_25">
+        <line x1="1529.7209" y1="779.875" x2="1500.9757" y2="857.0625" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_22">
+        <line x1="1529.871" y1="779.875" x2="1454.129" y2="985.5" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_20">
+        <line x1="1524.7342" y1="705.875" x2="1485.4907" y2="628.5" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_18">
+        <line x1="1512.7619" y1="714.5034" x2="1410.1653" y2="619.8058" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_3">
+        <text transform="translate(1110.3398 163.5)" fill="#00e">
+          <tspan font-family="Times" font-size="12" font-weight="400" fill="#00e" x="0" y="11">https://structx.com/soil_and_foundations.html</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <rect x="277" y="209.4375" width="591.117" height="334" id="path_2"/>
+        <clipPath id="clip_path_2">
+          <use xl:href="#path_2"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_2)">
+          <image xl:href="image2.png" width="469" height="265" transform="translate(277 209.4375) scale(1.2603774)"/>
+        </g>
+      </g>
+      <g id="Graphic_16">
+        <path d="M 1516 776.375 L 1516 716.075 L 1521.5 709.375 L 1571 709.375 L 1571 769.675 L 1565.5 776.375 Z" fill="white"/>
+        <path d="M 1516 776.375 L 1516 716.075 L 1521.5 709.375 L 1571 709.375 L 1571 769.675 L 1565.5 776.375 L 1516 776.375 M 1516 716.075 L 1565.5 716.075 L 1571 709.375 M 1565.5 716.075 L 1565.5 776.375" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+        <text transform="translate(1521 718.725)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="400" fill="black" x="0" y="52">(Moist)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19">
+        <rect x="1353.1653" y="560" width="57" height="67" fill="white"/>
+        <rect x="1353.1653" y="560" width="57" height="67" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1358.1653 562.5)" fill="black"/>
+      </g>
+      <g id="Graphic_21">
+        <rect x="1436" y="561.5" width="65" height="67" fill="white"/>
+        <rect x="1436" y="561.5" width="65" height="67" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1441 571)" fill="black"/>
+      </g>
+      <g id="Graphic_23">
+        <rect x="1371" y="985.5" width="139" height="74" fill="white"/>
+        <rect x="1371" y="985.5" width="139" height="74" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1376 992.5)" fill="black"/>
+      </g>
+      <g id="Graphic_26">
+        <rect x="1419" y="857.0625" width="139" height="67" fill="white"/>
+        <rect x="1419" y="857.0625" width="139" height="67" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1424 863.5625)" fill="black"/>
+      </g>
+      <g id="Graphic_28">
+        <path d="M 1198.617 758 L 1198.617 704 L 1204.317 698 L 1255.617 698 L 1255.617 752 L 1249.917 758 Z" fill="white"/>
+        <path d="M 1198.617 758 L 1198.617 704 L 1204.317 698 L 1255.617 698 L 1255.617 752 L 1249.917 758 L 1198.617 758 M 1198.617 704 L 1249.917 704 L 1255.617 698 M 1249.917 704 L 1249.917 758" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+        <text transform="translate(1203.617 705)" fill="black"/>
+      </g>
+      <g id="Graphic_30">
+        <rect x="1174" y="556.75" width="77" height="74" fill="white"/>
+        <rect x="1174" y="556.75" width="77" height="74" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1179 565.25)" fill="black"/>
+      </g>
+      <g id="Graphic_32">
+        <rect x="1165" y="853.5625" width="153" height="74" fill="white"/>
+        <rect x="1165" y="853.5625" width="153" height="74" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1170 857.0625)" fill="black"/>
+      </g>
+      <g id="Graphic_34">
+        <rect x="1174" y="982.5" width="149" height="80" fill="white"/>
+        <rect x="1174" y="982.5" width="149" height="80" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1179 988.5)" fill="black"/>
+      </g>
+      <g id="Graphic_36">
+        <path d="M 437 928 L 437 867.7 L 442.2 861 L 489 861 L 489 921.3 L 483.8 928 Z" fill="white"/>
+        <path d="M 437 928 L 437 867.7 L 442.2 861 L 489 861 L 489 921.3 L 483.8 928 L 437 928 M 437 867.7 L 483.8 867.7 L 489 861 M 483.8 867.7 L 483.8 928" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+        <text transform="translate(442 869.35)" fill="black"/>
+      </g>
+      <g id="Graphic_38">
+        <rect x="471.5" y="554.5" width="52" height="81" fill="white"/>
+        <rect x="471.5" y="554.5" width="52" height="81" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(476.5 559)" fill="black"/>
+      </g>
+      <g id="Graphic_40">
+        <rect x="378" y="555" width="77" height="81" fill="white"/>
+        <rect x="378" y="555" width="77" height="81" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(383 558)" fill="black"/>
+      </g>
+      <g id="Graphic_43">
+        <rect x="506" y="692" width="65" height="80" fill="white"/>
+        <rect x="506" y="692" width="65" height="80" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(511 703)" fill="black"/>
+      </g>
+      <g id="Graphic_46">
+        <rect x="360" y="962" width="57" height="67" fill="white"/>
+        <rect x="360" y="962" width="57" height="67" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(365 962)" fill="black"/>
+      </g>
+      <g id="Graphic_47">
+        <path d="M 645 776.375 L 645 704.375 L 650.7 696.375 L 702 696.375 L 702 768.375 L 696.3 776.375 Z" fill="white"/>
+        <path d="M 645 776.375 L 645 704.375 L 650.7 696.375 L 702 696.375 L 702 768.375 L 696.3 776.375 L 645 776.375 M 645 704.375 L 696.3 704.375 L 702 696.375 M 696.3 704.375 L 696.3 776.375" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+        <text transform="translate(650 701.375)" fill="black"/>
+      </g>
+      <g id="Graphic_49">
+        <rect x="551" y="554.5" width="44" height="80" fill="white"/>
+        <rect x="551" y="554.5" width="44" height="80" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(556 560.5)" fill="black"/>
+      </g>
+      <g id="Graphic_51">
+        <rect x="607.5" y="555" width="90" height="80" fill="white"/>
+        <rect x="607.5" y="555" width="90" height="80" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(612.5 560)" fill="black"/>
+      </g>
+      <g id="Graphic_55">
+        <rect x="571" y="692" width="57" height="80" fill="white"/>
+        <rect x="571" y="692" width="57" height="80" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(576 704)" fill="black"/>
+      </g>
+      <g id="Graphic_56">
+        <path d="M 722 1241 L 722 1187 L 727.7 1181 L 779 1181 L 779 1235 L 773.3 1241 Z" fill="white"/>
+        <path d="M 722 1241 L 722 1187 L 727.7 1181 L 779 1181 L 779 1235 L 773.3 1241 L 722 1241 M 722 1187 L 773.3 1187 L 779 1181 M 773.3 1187 L 773.3 1241" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+        <text transform="translate(727 1189.5)" fill="black"/>
+      </g>
+      <g id="Graphic_58">
+        <rect x="722" y="553" width="71" height="85" fill="white"/>
+        <rect x="722" y="553" width="71" height="85" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(727 564)" fill="black"/>
+      </g>
+      <g id="Graphic_61">
+        <rect x="753.65425" y="682" width="52" height="67" fill="white"/>
+        <rect x="753.65425" y="682" width="52" height="67" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(758.65425 685)" fill="black"/>
+      </g>
+      <g id="Graphic_63">
+        <path d="M 434.5 1159.8632 L 434.5 1111.2632 L 440.2 1105.8632 L 491.5 1105.8632 L 491.5 1154.4632 L 485.8 1159.8632 Z" fill="white"/>
+        <path d="M 434.5 1159.8632 L 434.5 1111.2632 L 440.2 1105.8632 L 491.5 1105.8632 L 491.5 1154.4632 L 485.8 1159.8632 L 434.5 1159.8632 M 434.5 1111.2632 L 485.8 1111.2632 L 491.5 1105.8632 M 485.8 1111.2632 L 485.8 1159.8632" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+        <text transform="translate(439.5 1113.5632)" fill="black"/>
+      </g>
+      <g id="Graphic_65">
+        <rect x="248" y="561.5" width="57" height="67" fill="white"/>
+        <rect x="248" y="561.5" width="57" height="67" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(253 564)" fill="black"/>
+      </g>
+      <g id="Graphic_67">
+        <rect x="303" y="982.5" width="57" height="67" fill="white"/>
+        <rect x="303" y="982.5" width="57" height="67" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(308 986.5)" fill="black"/>
+      </g>
+      <g id="Graphic_69">
+        <path d="M 854 912.5625 L 854 866.6625 L 859.7 861.5625 L 911 861.5625 L 911 907.4625 L 905.3 912.5625 Z" fill="white"/>
+        <path d="M 854 912.5625 L 854 866.6625 L 859.7 861.5625 L 911 861.5625 L 911 907.4625 L 905.3 912.5625 L 854 912.5625 M 854 866.6625 L 905.3 866.6625 L 911 861.5625 M 905.3 866.6625 L 905.3 912.5625" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+        <text transform="translate(859 866.1125)" fill="black"/>
+      </g>
+      <g id="Graphic_72">
+        <rect x="893" y="671" width="65" height="70.5" fill="white"/>
+        <rect x="893" y="671" width="65" height="70.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(898 674.25)" fill="black"/>
+      </g>
+      <g id="Graphic_74">
+        <rect x="907.25" y="568" width="57" height="67" fill="white"/>
+        <rect x="907.25" y="568" width="57" height="67" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(912.25 568)" fill="black"/>
+      </g>
+      <g id="Graphic_76">
+        <rect x="419" y="972" width="57" height="70.5" fill="white"/>
+        <rect x="419" y="972" width="57" height="70.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(424 969.75)" fill="black"/>
+      </g>
+      <g id="Graphic_81">
+        <path d="M 1049 1254.1144 L 1049 1200.1144 L 1054.7 1194.1144 L 1106 1194.1144 L 1106 1248.1144 L 1100.3 1254.1144 Z" fill="white"/>
+        <path d="M 1049 1254.1144 L 1049 1200.1144 L 1054.7 1194.1144 L 1106 1194.1144 L 1106 1248.1144 L 1100.3 1254.1144 L 1049 1254.1144 M 1049 1200.1144 L 1100.3 1200.1144 L 1106 1194.1144 M 1100.3 1200.1144 L 1100.3 1254.1144" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <text transform="translate(1054 1202.6144)" fill="black"/>
+      </g>
+      <g id="Graphic_83">
+        <rect x="1023.5" y="553" width="77" height="74" fill="white"/>
+        <rect x="1023.5" y="553" width="77" height="74" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1028.5 562)" fill="black"/>
+      </g>
+      <g id="Line_84">
+        <line x1="1076.73" y1="1192.6144" x2="1062.9044" y2="627" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_87">
+        <rect x="1023.5" y="850.0625" width="102" height="74" fill="white"/>
+        <rect x="1023.5" y="850.0625" width="102" height="74" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1028.5 860.5625)" fill="black"/>
+      </g>
+      <g id="Line_89">
+        <line x1="1077.2196" y1="1192.6144" x2="1074.8293" y2="924.0625" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_93">
+        <path d="M 1057.5 1429.2797 L 1057.5 1375.2797 L 1063.2 1369.2797 L 1114.5 1369.2797 L 1114.5 1423.2797 L 1108.8 1429.2797 Z" fill="white"/>
+        <path d="M 1057.5 1429.2797 L 1057.5 1375.2797 L 1063.2 1369.2797 L 1114.5 1369.2797 L 1114.5 1423.2797 L 1108.8 1429.2797 L 1057.5 1429.2797 M 1057.5 1375.2797 L 1108.8 1375.2797 L 1114.5 1369.2797 M 1108.8 1375.2797 L 1108.8 1429.2797" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <text transform="translate(1062.5 1373.2797)" fill="black"/>
+      </g>
+      <g id="Graphic_95">
+        <rect x="1176.117" y="1296.633" width="102" height="81" fill="white"/>
+        <rect x="1176.117" y="1296.633" width="102" height="81" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1181.117 1310.133)" fill="black"/>
+      </g>
+      <g id="Line_96">
+        <line x1="1116" y1="1386.068" x2="1176.117" y2="1359.593" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_98">
+        <path d="M 1481 1377.633 L 1481 1311.033 L 1488.7 1303.633 L 1558 1303.633 L 1558 1370.233 L 1550.3 1377.633 Z" fill="white"/>
+        <path d="M 1481 1377.633 L 1481 1311.033 L 1488.7 1303.633 L 1558 1303.633 L 1558 1370.233 L 1550.3 1377.633 L 1481 1377.633 M 1481 1311.033 L 1550.3 1311.033 L 1558 1303.633 M 1550.3 1311.033 L 1550.3 1377.633" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <text transform="translate(1486 1313.833)" fill="black"/>
+      </g>
+      <g id="Graphic_100">
+        <rect x="1365" y="1382.9545" width="71" height="65.39394" fill="white"/>
+        <rect x="1365" y="1382.9545" width="71" height="65.39394" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1370 1385.6514)" fill="black"/>
+      </g>
+      <g id="Line_101">
+        <line x1="1479.5" y1="1365.8493" x2="1436" y2="1393.272" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_105">
+        <path d="M 1498.4705 1232 L 1498.4705 1186.1 L 1504.9705 1181 L 1563.4705 1181 L 1563.4705 1226.9 L 1556.9705 1232 Z" fill="white"/>
+        <path d="M 1498.4705 1232 L 1498.4705 1186.1 L 1504.9705 1181 L 1563.4705 1181 L 1563.4705 1226.9 L 1556.9705 1232 L 1498.4705 1232 M 1498.4705 1186.1 L 1556.9705 1186.1 L 1563.4705 1181 M 1556.9705 1186.1 L 1556.9705 1232" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <text transform="translate(1503.4705 1186.05)" fill="black"/>
+      </g>
+      <g id="Graphic_106">
+        <rect x="1605" y="556.75" width="65" height="66.5" fill="white"/>
+        <rect x="1605" y="556.75" width="65" height="66.5" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1610 562)" fill="black"/>
+      </g>
+      <g id="Line_107">
+        <line x1="1631.7545" y1="623.25" x2="1535.636" y2="1179.5" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_108">
+        <rect x="1612" y="857.0625" width="65" height="61" id="path_3"/>
+        <clipPath id="clip_path_3">
+          <use xl:href="#path_3"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_3)">
+          <image xl:href="image30.png" width="65" height="61" transform="translate(1612 857.0625)"/>
+        </g>
+      </g>
+      <g id="Line_109">
+        <line x1="1568.3295" y1="778.4444" x2="1623.2093" y2="857.0625" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24.0,12.0,3.0,12.0" stroke-width="3"/>
+      </g>
+      <g id="Line_110">
+        <line x1="1545.9135" y1="1164.5207" x2="1633.6432" y2="918.0625" marker-start="url(#FilledArrow_Marker)" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24.0,12.0,3.0,12.0" stroke-width="3"/>
+      </g>
+      <g id="Graphic_112">
+        <rect x="1272.4557" y="746.1061" width="220.54427" height="65.39394" id="path_4"/>
+        <clipPath id="clip_path_4">
+          <use xl:href="#path_4"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_4)">
+          <image xl:href="image32.png" width="172" height="51" transform="translate(1272.4557 746.1061) scale(1.2822341)"/>
+        </g>
+      </g>
+      <g id="Line_113">
+        <line x1="1259.117" y1="738.4472" x2="1282.5763" y2="746.1061" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24.0,12.0,3.0,12.0" stroke-width="3"/>
+      </g>
+      <g id="Line_114">
+        <line x1="1493" y1="754.1603" x2="1512.5" y2="749.8026" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24.0,12.0,3.0,12.0" stroke-width="3"/>
+      </g>
+      <g id="Graphic_117">
+        <rect x="704" y="419.4375" width="44" height="46" id="path_5"/>
+        <clipPath id="clip_path_5">
+          <use xl:href="#path_5"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_5)">
+          <image xl:href="image35.png" width="44" height="46" transform="translate(704 419.4375)"/>
+        </g>
+      </g>
+      <g id="Graphic_119">
+        <rect x="681" y="375.4375" width="35.777778" height="28" id="path_6"/>
+        <clipPath id="clip_path_6">
+          <use xl:href="#path_6"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_6)">
+          <image xl:href="image36.png" width="46" height="36" transform="translate(681 375.4375) scale(.7777778)"/>
+        </g>
+      </g>
+      <g id="Line_120">
+        <line x1="714.2348" y1="419.4375" x2="710.55884" y2="412.2513" marker-end="url(#FilledArrow_Marker_2)" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_123">
+        <ellipse cx="685" cy="861.0833" rx="45.0000719055854" ry="23.3333706177108" id="path_7"/>
+        <clipPath id="clip_path_7">
+          <use xl:href="#path_7"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_7)">
+          <image xl:href="image38.png" width="162" height="84" transform="translate(640 837.75) scale(.55555556)"/>
+        </g>
+        <ellipse cx="685" cy="861.0833" rx="45.0000719055854" ry="23.3333706177108" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_125">
+        <line x1="850.5" y1="882.8532" x2="728.6251" y2="866.8218" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24.0,12.0,3.0,12.0" stroke-width="3"/>
+      </g>
+      <g id="Line_126">
+        <line x1="744.2292" y1="1177.5" x2="689.3474" y2="884.3082" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24.0,12.0,3.0,12.0" stroke-width="3"/>
+      </g>
+      <g id="Line_127">
+        <line x1="487.91354" y1="1102.3632" x2="667.4451" y2="882.5746" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24.0,12.0,3.0,12.0" stroke-width="3"/>
+      </g>
+      <g id="Line_128">
+        <line x1="492.5" y1="890.0595" x2="641.7761" y2="867.5896" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24.0,12.0,3.0,12.0" stroke-width="3"/>
+      </g>
+      <g id="Graphic_133">
+        <rect x="1198.617" y="1086.5973" width="71" height="73.26596" id="path_8"/>
+        <clipPath id="clip_path_8">
+          <use xl:href="#path_8"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_8)">
+          <image xl:href="image42.png" width="94" height="97" transform="translate(1198.617 1086.5973) scale(.75531915)"/>
+        </g>
+      </g>
+      <g id="Line_134">
+        <line x1="1269.617" y1="1133.1883" x2="1482.8168" y2="1192.9925" marker-end="url(#FilledArrow_Marker_3)" stroke="#235e00" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_135">
+        <rect x="901.9375" y="1077.3238" width="102" height="82.53947" id="path_9"/>
+        <clipPath id="clip_path_9">
+          <use xl:href="#path_9"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_9)">
+          <image xl:href="image43.png" width="152" height="123" transform="translate(901.9375 1077.3238) scale(.6710526)"/>
+        </g>
+      </g>
+      <g id="Line_136">
+        <line x1="504.0947" y1="913.2964" x2="901.9375" y2="1095.2665" marker-start="url(#FilledArrow_Marker_4)" stroke="#005c5d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_140">
+        <rect x="1208" y="1204.9148" width="189.9705" height="46.666667" id="path_10"/>
+        <clipPath id="clip_path_10">
+          <use xl:href="#path_10"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_10)">
+          <image xl:href="image47.png" width="460" height="113" transform="translate(1208 1204.9148) scale(.41297935)"/>
+        </g>
+      </g>
+      <g id="Line_141">
+        <line x1="1397.9705" y1="1219.1872" x2="1496.9705" y2="1209.7433" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24.0,12.0,3.0,12.0" stroke-width="3"/>
+      </g>
+      <g id="Line_142">
+        <line x1="1107.5" y1="1224.6644" x2="1208" y2="1226.5068" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24.0,12.0,3.0,12.0" stroke-width="3"/>
+      </g>
+      <g id="Line_143">
+        <line x1="782.5" y1="1196.393" x2="901.9375" y2="1141.8734" stroke="#005c5d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_144">
+        <rect x="615" y="1432" width="318.9375" height="40.5" id="path_11"/>
+        <clipPath id="clip_path_11">
+          <use xl:href="#path_11"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_11)">
+          <image xl:href="image48.png" width="315" height="40" transform="translate(615 1432) scale(1.0125)"/>
+        </g>
+      </g>
+      <g id="Line_146">
+        <line x1="1003.9375" y1="1119.4345" x2="1198.617" y2="1122.6449" stroke="#005c5d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g id="Graphic_147"/>
+      <g id="Graphic_149">
+        <rect x="89" y="1512" width="417.023" height="474" id="path_12"/>
+        <clipPath id="clip_path_12">
+          <use xl:href="#path_12"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_12)">
+          <image xl:href="image49.png" width="344" height="391" transform="translate(89 1512) scale(1.2122762)"/>
+        </g>
+      </g>
+      <g id="Graphic_151">
+        <rect x="992" y="985.599" width="149" height="76.90102" fill="white"/>
+        <rect x="992" y="985.599" width="149" height="76.90102" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(997 990.0495)" fill="black"/>
+      </g>
+      <g id="Graphic_153">
+        <path d="M 1111 1543.8856 L 1111 1489.8856 L 1117.5 1483.8856 L 1176 1483.8856 L 1176 1537.8856 L 1169.5 1543.8856 Z" fill="white"/>
+        <path d="M 1111 1543.8856 L 1111 1489.8856 L 1117.5 1483.8856 L 1176 1483.8856 L 1176 1537.8856 L 1169.5 1543.8856 L 1111 1543.8856 M 1111 1489.8856 L 1169.5 1489.8856 L 1176 1483.8856 M 1169.5 1489.8856 L 1169.5 1543.8856" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <text transform="translate(1116 1496.3856)" fill="black"/>
+      </g>
+      <g id="Graphic_154">
+        <rect x="1276.6398" y="1470.8516" width="121.33068" height="73.034" id="path_13"/>
+        <clipPath id="clip_path_13">
+          <use xl:href="#path_13"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_13)">
+          <image xl:href="image51.png" width="206" height="124" transform="translate(1276.6398 1470.8516) scale(.5889839)"/>
+        </g>
+        <rect x="1276.6398" y="1470.8516" width="121.33068" height="73.034" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_155">
+        <line x1="1276.6398" y1="1509.4086" x2="1177.5" y2="1512.7423" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_157">
+        <text transform="translate(718 1305)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">If </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="#b1001c" y="15">S = 1</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="15">, the soil sample is saturated</tspan>
+        </text>
+      </g>
+      <g id="Graphic_158">
+        <rect x="753.65425" y="775.5" width="52" height="65.39394" id="path_14"/>
+        <clipPath id="clip_path_14">
+          <use xl:href="#path_14"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_14)">
+          <image xl:href="image52.png" width="66" height="83" transform="translate(753.65425 775.5) scale(.7878788)"/>
+        </g>
+        <rect x="753.65425" y="775.5" width="52" height="65.39394" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_159">
+        <line x1="752.9247" y1="1177.5" x2="777.2877" y2="840.8939" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_162">
+        <rect x="693.971" y="1339" width="196.84848" height="80" id="path_15"/>
+        <clipPath id="clip_path_15">
+          <use xl:href="#path_15"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_15)">
+          <image xl:href="image53.png" width="406" height="165" transform="translate(693.971 1339) scale(.4848485)"/>
+        </g>
+      </g>
+      <g id="Graphic_166">
+        <rect x="236.51475" y="1269" width="189.9705" height="72.13166" id="path_16"/>
+        <clipPath id="clip_path_16">
+          <use xl:href="#path_16"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_16)">
+          <image xl:href="image54.png" width="266" height="101" transform="translate(236.51475 1269) scale(.7141748)"/>
+        </g>
+        <rect x="236.51475" y="1269" width="189.9705" height="72.13166" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_167">
+        <rect x="236.51475" y="1355" width="254.98525" height="76.97668" id="path_17"/>
+        <clipPath id="clip_path_17">
+          <use xl:href="#path_17"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_17)">
+          <image xl:href="image55.png" width="371" height="112" transform="translate(236.51475 1355) scale(.6872918)"/>
+        </g>
+        <rect x="236.51475" y="1355" width="254.98525" height="76.97668" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_171"/>
+      <g id="Graphic_172">
+        <rect x="1315.5" y="1314.633" width="125.92593" height="46.666667" id="path_18"/>
+        <clipPath id="clip_path_18">
+          <use xl:href="#path_18"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_18)">
+          <image xl:href="image56.png" width="170" height="63" transform="translate(1315.5 1314.633) scale(.7407407)"/>
+        </g>
+      </g>
+      <g id="Line_173">
+        <line x1="1499.6491" y1="1233.5" x2="1405.5308" y2="1314.633" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24.0,12.0,3.0,12.0" stroke-width="3"/>
+      </g>
+      <g id="Line_174">
+        <line x1="1190.2279" y1="1478.9" x2="1347.2983" y2="1361.2996" marker-start="url(#FilledArrow_Marker)" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="24.0,12.0,3.0,12.0" stroke-width="3"/>
+      </g>
+      <g id="Graphic_185">
+        <path d="M 720.783 353 L 730.0255 353 C 733.1064 353 734.6468 353 736.4953 353.0025 C 738.0357 353.005 739.57615 353.01125 740.1923 353.0175 C 740.8085 353.025 740.8085 353.03125 740.8085 353.04375 L 740.8085 353.08125 C 740.8085 353.09375 740.8085 353.1 740.1923 353.1075 C 739.57615 353.11375 738.0357 353.12 736.4953 353.1225 C 734.6468 353.125 733.1064 353.125 730.0255 353.125 L 720.783 353.125 C 717.7021 353.125 716.1617 353.125 714.3132 353.1225 C 712.7728 353.12 711.2323 353.11375 710.6162 353.1075 C 710 353.1 710 353.09375 710 353.08125 L 710 353.04375 C 710 353.03125 710 353.025 710.6162 353.0175 C 711.2323 353.01125 712.7728 353.005 714.3132 353.0025 C 716.1617 353 717.7021 353 720.783 353 M 720.783 353" fill="white"/>
+        <path d="M 720.783 353 L 730.0255 353 C 733.1064 353 734.6468 353 736.4953 353.0025 C 738.0357 353.005 739.57615 353.01125 740.1923 353.0175 C 740.8085 353.025 740.8085 353.03125 740.8085 353.04375 L 740.8085 353.08125 C 740.8085 353.09375 740.8085 353.1 740.1923 353.1075 C 739.57615 353.11375 738.0357 353.12 736.4953 353.1225 C 734.6468 353.125 733.1064 353.125 730.0255 353.125 L 720.783 353.125 C 717.7021 353.125 716.1617 353.125 714.3132 353.1225 C 712.7728 353.12 711.2323 353.11375 710.6162 353.1075 C 710 353.1 710 353.09375 710 353.08125 L 710 353.04375 C 710 353.03125 710 353.025 710.6162 353.0175 C 711.2323 353.01125 712.7728 353.005 714.3132 353.0025 C 716.1617 353 717.7021 353 720.783 353 M 720.783 353" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_186">
+        <line x1="709.0941" y1="375.4375" x2="719.527" y2="361.1251" marker-end="url(#FilledArrow_Marker_2)" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_188">
+        <ellipse cx="1617.5" cy="1206.5" rx="59.5000950751627" ry="40.5000647150266" fill="#c0ffc0"/>
+        <ellipse cx="1617.5" cy="1206.5" rx="59.5000950751627" ry="40.5000647150266" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(1574.9 1188.052)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="27.032" y="15">14.8 </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="12.751998" y="33.448">KN/m^3</tspan>
+        </text>
+      </g>
+      <g id="Graphic_189">
+        <ellipse cx="673.5" cy="1219.2292" rx="59.5000950751627" ry="40.5000647150266" fill="#c0ffc0"/>
+        <ellipse cx="673.5" cy="1219.2292" rx="59.5000950751627" ry="40.5000647150266" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(630.9 1210.0052)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="27.032" y="15">2.71</tspan>
+        </text>
+      </g>
+      <g id="Graphic_190">
+        <ellipse cx="874.5" cy="948.375" rx="59.5000950751628" ry="40.5000647150268" fill="#c0ffc0"/>
+        <ellipse cx="874.5" cy="948.375" rx="59.5000950751628" ry="40.5000647150268" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(831.9 939.151)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="25.704" y="15">17%</tspan>
+        </text>
+      </g>
+      <g id="Graphic_191">
+        <ellipse cx="919.3085" cy="1355.448" rx="38.5000615192229" ry="27.0000431433512" fill="#ffc0ff"/>
+        <ellipse cx="919.3085" cy="1355.448" rx="38.5000615192229" ry="27.0000431433512" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(893.5085 1346.224)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.231999" y="15">9.81</tspan>
+        </text>
+      </g>
+      <g id="Graphic_193">
+        <ellipse cx="265.5" cy="376.4375" rx="32.5000519318117" ry="23.3333706177109" fill="#ffc0ff"/>
+        <ellipse cx="265.5" cy="376.4375" rx="32.5000519318117" ry="23.3333706177109" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(244.5 367.2135)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="16.552" y="15">1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_194">
+        <rect x="798" y="557.4059" width="77" height="75.188235" id="path_19"/>
+        <clipPath id="clip_path_19">
+          <use xl:href="#path_19"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_19)">
+          <image xl:href="image57.png" width="85" height="83" transform="translate(798 557.4059) scale(.9058824)"/>
+        </g>
+        <rect x="798" y="557.4059" width="77" height="75.188235" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_195">
+        <line x1="831.2515" y1="632.5941" x2="755.17695" y2="1177.5" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_199">
+        <rect x="509" y="375.4375" width="119" height="63.156425" id="path_20"/>
+        <clipPath id="clip_path_20">
+          <use xl:href="#path_20"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_20)">
+          <image xl:href="image58.png" width="179" height="95" transform="translate(509 375.4375) scale(.6648045)"/>
+        </g>
+      </g>
+      <g id="Graphic_202">
+        <rect x="394.5" y="419.4375" width="44" height="53.935484" id="path_21"/>
+        <clipPath id="clip_path_21">
+          <use xl:href="#path_21"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_21)">
+          <image xl:href="image59.png" width="62" height="76" transform="translate(394.5 419.4375) scale(.7096774)"/>
+        </g>
+      </g>
+      <g id="Line_203">
+        <line x1="704" y1="437.4897" x2="628" y2="420.3973" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_204">
+        <line x1="509" y1="422.43464" x2="438.5" y2="440.7041" stroke="#7f8080" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_212">
+        <rect x="705.5373" y="315.25" width="40" height="38" id="path_22"/>
+        <clipPath id="clip_path_22">
+          <use xl:href="#path_22"/>
+        </clipPath>
+        <g clip-path="url(#clip_path_22)">
+          <image xl:href="image60.png" width="40" height="38" transform="translate(705.5373 315.25)"/>
+        </g>
+      </g>
+      <g id="Graphic_221">
+        <a xl:href="https://github.com/jinsanity07git/uKnow/blob/master/UWM_Courses/CIV335_soil/C3/Quiz2_solution.md">
+          <ellipse cx="1297.7865" cy="1707.1875" rx="110.272309299713" ry="81.1876297296602"/>
+          <ellipse cx="1297.7865" cy="1707.1875" rx="110.272309299713" ry="81.1876297296602" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <text transform="translate(1214.5688 1671.3475)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="30" font-weight="400" fill="black" x="44.607705" y="29">Quiz2</tspan>
+            <tspan font-family="Helvetica Neue" font-size="30" font-weight="400" fill="black" x="28.212705" y="64.84">Solution</tspan>
+          </text>
+        </a>
+      </g>
+    </g>
+  </g>
+</svg>
