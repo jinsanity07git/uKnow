@@ -43,7 +43,21 @@ ES6, ES7 syntax
 
 
 
-3. State props
+##### 3.State & props
+
+State and props manage data
+
+- Ways to manage modular data in React
+- You will be using these constantly
+
+State is internal to a component
+
+- Use this.setState({}) to set the state, not directly this.state = ‘whatever’
+- Set up in constructor() function
+- Can have multiple complex variables inside state
+
+
+
 4. Data Libraries
 5. Actions, Reducers, Redux
 6. Github project
