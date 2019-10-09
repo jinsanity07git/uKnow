@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import NameComponent from './components/NameComponent';
-import {Nav,Navbar,NavDropdown,FormControl,Form,Button} from 'react-bootstrap';
+import {Nav,Navbar,NavDropdown,FormControl,Form,Button,Table} from 'react-bootstrap';
 import Select from 'react-select';
 
 
@@ -23,6 +23,7 @@ class App extends Component{
       array : ['welcome', 'to', 'my', 'course'],
       user_name : 'jinsanity' ,
       selectedOption: null,
+      jsonList : [],
     }
 
 
@@ -30,7 +31,19 @@ class App extends Component{
   }  
 
 componentDidMount(){
-  console.log('obj')
+  console.log('fetch')
+
+  fetch('http://www.json-generator.com/api/json/get/bVDxTQSDQO?indent=2', {
+      method: 'GET'
+    })
+    .then(response => response.json())
+    .then(json => {
+      // console.log(json)
+      this.setState(
+        {jsonList: json}
+        )
+    })
+    .catch(error => console.log(error));
 }
 
 console(obj){
@@ -58,7 +71,7 @@ handleClick(){
   var word = "as";
   var style = {fontSize: '40px'};
   const {array} = this.state ;
-
+  const {jsonList} = this.state ;
 
     return (
 
@@ -89,12 +102,51 @@ handleClick(){
           </Navbar.Collapse>
         </Navbar>
       </div>
+      <div className="Container">
+        <div className="Row">
+          <div className = "col-sm-4">
+            <Select
+              value={this.state.selectedOption}
+              onChange={this.handleChange.bind(this)}
+              options={options}
+            />
+          </div>
+         </div>
 
-      <Select
-        value={this.state.selectedOption}
-        onChange={this.handleChange.bind(this)}
-        options={options}
-      />
+          <div className="Row">
+          <div className = "col-sm-9">
+                <hr/>
+
+              <Table striped bordered hover>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Age</th>
+                    <th>Company</th>
+                  </tr>
+                </thead>
+                <tbody>
+                      {jsonList.map(item => {
+                        return (
+
+                              <tr>
+                                <td>{item.name}</td>
+                                <td>{item.address}</td>
+                                <td>{item.age}</td>
+                                <td>@{item.company}</td>
+                              </tr>
+                        )
+                      })}
+                    </tbody>
+      </Table>
+      </div>
+      </div>
+
+      </div>
+
+
+
 
 
 

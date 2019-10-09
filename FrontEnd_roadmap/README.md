@@ -68,8 +68,6 @@ Libraries
 
 
 
-
-
 Packege install 
 
 * React-Bootstrap, interface setup
@@ -77,15 +75,28 @@ Packege install
 
 [React Bootstrap](https://react-bootstrap.github.io/)  ; [React-Select](https://react-select.com/) 
 
-
-
-
-
 React-Bootstrap can give you some nice fast initial styling using custom components Use documentation for packages!
 
-JSON or external AJAX data
+19. JSON or external AJAX data
+
+* fetch( ) 
+* https://www.json-generator.com/
+
+```
+  fetch('http://www.json-generator.com/api/json/get/bVDxTQSDQO?indent=2', {
+      method: 'GET'
+    })
+    .then(response => response.json())
+    .then(json => {
+      console.log(json)
+    })
+    .catch(error => console.log(error));
+}
+```
 
 
+
+ 
 
 
 
