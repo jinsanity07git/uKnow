@@ -95,10 +95,7 @@ React-Bootstrap can give you some nice fast initial styling using custom compone
 ```
 
 - Using componentDidMount() for initial data GET call
-
 - Can load into state, or use to manipulate state, etc.
-
-  
 
  
 
@@ -106,5 +103,54 @@ React-Bootstrap can give you some nice fast initial styling using custom compone
 
 
 
-5. Actions, Reducers, Redux
-6. Github project
+##### 5. Actions, Reducers, Redux
+
+Data ﬂow
+
+`react data flow`
+
+- Unidirectional, Components -> Actions -> Reducers -> Store -> Container -> Component
+- Use this ﬂow to your advantage 
+- [Introduction to Redux](https://rangle.github.io/react-training/redux-intro/) 
+  - ![Redux Flow](https://rangle.github.io/react-training/img/redux-flow.png) 
+
+Flux vs Redux
+
+* [Flux vs. Redux: A Comparison - Dakota Lillie - Medium](https://medium.com/@dakota.lillie/flux-vs-redux-a-comparison-bbd5000d5111) 
+* [Redux vs Flux - 10 Important Differences (With Infographics)](https://www.educba.com/redux-vs-flux/) 
+
+
+
+Get used to installing boilerplate that sets up the wiring you need and the folder structure outlined in the videos 
+
+
+
+Actions
+
+- Do AJAX calls or send information that should be shared across whole app
+- Can put some logic in here or in a Container with mapDispatchToProps() (next section)
+- Avoid too much logic here if possible, keep it minimal
+- Actions ﬁred from components, and wrapped in a dispatch function 
+
+Reducer
+
+- Need to create individual reducers for combineReducer() function
+- Contains state variable relative to that reducer, which is connected to the global state
+- Is interlinked with the Store 
+
+Container
+
+- Wraps the component and manages component props
+- Can contain dispatch() functions that ﬁre actions
+
+
+
+
+
+To install the stable version:
+
+```
+npm install --save redux
+```
+
+6. Github project 
