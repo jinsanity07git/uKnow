@@ -14,7 +14,6 @@
 
 * create-react-app [github](https://github.com/facebook/create-react-app) 
   * [doc dev](https://create-react-app.dev/) 
-  * 
 
 ##### 2. React &  JSX
 
@@ -52,12 +51,45 @@ State and props manage data
 
 State is internal to a component
 
-- Use this.setState({}) to set the state, not directly this.state = ‘whatever’
-- Set up in constructor() function
+- Use` this.setState({}) `to set the state, not directly this.state = ‘whatever’
+- Set up in `constructor()` function
 - Can have multiple complex variables inside state
 
 
 
-4. Data Libraries
+##### 4.Data Libraries
+
+Libraries
+
+- Open-source code packages, installable and reusable and editable
+- React-Bootstrap and React-Select, using NPM
+- Using import to manage packages and modular code
+- Ensure you are following install instructions closely
+
+
+
+
+
+Packege install 
+
+* React-Bootstrap, interface setup
+  React-Select searchable list
+
+[React Bootstrap](https://react-bootstrap.github.io/)  ; [React-Select](https://react-select.com/) 
+
+
+
+
+
+React-Bootstrap can give you some nice fast initial styling using custom components Use documentation for packages!
+
+JSON or external AJAX data
+
+
+
+
+
+
+
 5. Actions, Reducers, Redux
 6. Github project

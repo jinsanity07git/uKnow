@@ -15,6 +15,10 @@ componentDidMount(){
   console.log("NameComponent did mounted")
 }
 
+componentDidUpdate(){
+  console.log("  changed")
+}
+
 componentWillReceiveProps(nextProps){
     console.log(nextProps)
   if(this.props.word !== nextProps.word){
