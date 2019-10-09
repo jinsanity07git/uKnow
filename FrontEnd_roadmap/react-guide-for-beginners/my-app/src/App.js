@@ -22,7 +22,7 @@ class App extends Component{
     this.state = {
       array : ['welcome', 'to', 'my', 'course'],
       user_name : 'jinsanity' ,
-      selectedOption: null,
+      selectedOption: { value: '', label: '' },
       jsonList : [],
     }
 
@@ -73,6 +73,10 @@ handleClick(){
   const {array} = this.state ;
   const {jsonList} = this.state ;
 
+  const selectList  = this.state.jsonList.map(item => {
+      return {value : item.name, label: item.name}
+  });
+
     return (
 
 
@@ -108,7 +112,7 @@ handleClick(){
             <Select
               value={this.state.selectedOption}
               onChange={this.handleChange.bind(this)}
-              options={options}
+              options={selectList}
             />
           </div>
          </div>
@@ -127,9 +131,10 @@ handleClick(){
                   </tr>
                 </thead>
                 <tbody>
-                      {jsonList.map(item => {
-                        return (
-
+                      {this.state.jsonList.map(item => {
+                        console.log(this.state.selectedOption.value )
+                        if(this.state.selectedOption.value ==="" ||item.name === this.state.selectedOption.value){
+                          return (
                               <tr>
                                 <td>{item.name}</td>
                                 <td>{item.address}</td>
@@ -137,6 +142,8 @@ handleClick(){
                                 <td>@{item.company}</td>
                               </tr>
                         )
+                        }
+
                       })}
                     </tbody>
       </Table>

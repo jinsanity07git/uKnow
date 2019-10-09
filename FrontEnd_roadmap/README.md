@@ -94,7 +94,11 @@ React-Bootstrap can give you some nice fast initial styling using custom compone
 }
 ```
 
+- Using componentDidMount() for initial data GET call
 
+- Can load into state, or use to manipulate state, etc.
+
+  
 
  
 
