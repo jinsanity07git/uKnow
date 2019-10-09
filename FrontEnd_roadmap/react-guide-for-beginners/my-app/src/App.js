@@ -28,7 +28,7 @@ console(obj){
 
 handleClick(){
       this.setState({
-      user_name : "jinsanity07"
+      user_name : "jinsanity 07"
     });
 }
 
@@ -49,13 +49,14 @@ handleClick(){
 
           {array.map(word => {
             return (
-                <p key={word}> {word}</p>
+                <p key={word}>  {word}</p>
               )
           })}
 
           <button onClick={this.handleClick}> 
-            <NameComponent/> 
+            <NameComponent  word = {this.state.user_name} />  
           </button>
+          <NameComponent />  
       </div>
     );
   }
