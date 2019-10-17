@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Navbar, Nav, Form,FormControl }  from 'react-bootstrap';
-import Slider from './Slider';
+import SimpleSlider from './Slider';
 import Profile from './Profile' ;
 
 
@@ -19,7 +19,7 @@ class App extends Component{
         <Navbar.Brand href="#home">Usim</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">Viewer</Nav.Link>
-          <Nav.Link href="#features" onClick={() => this.setState({currentTab:'slider'})}>Editor</Nav.Link>
+          <Nav.Link href="#SimpleSlider" onClick={() => this.setState({currentTab:'slider'})}>Slider</Nav.Link>
           <Nav.Link href="#pricing"  onClick={() => this.setState({currentTab:'profile'})}>Scenarios </Nav.Link>
         </Nav>
         <Form inline>
@@ -28,7 +28,7 @@ class App extends Component{
         </Form>
       </Navbar>
       <div>
-      {this.state.currentTab === 'slider' ? <Slider/> : false} 
+      {this.state.currentTab === 'slider' ? <SimpleSlider/> : false} 
       {this.state.currentTab === 'profile' ? <Profile/> : false} 
 
     </div>
