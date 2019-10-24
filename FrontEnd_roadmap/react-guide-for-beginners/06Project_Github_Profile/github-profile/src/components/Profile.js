@@ -23,6 +23,7 @@ class Profile extends Component{
 
 
         this.ParsingKV= this.ParsingKV.bind(this);
+        this.getDataFsb= this.getDataFsb.bind(this);
     }
 
     componentDidMount(){
@@ -63,6 +64,19 @@ class Profile extends Component{
         return items;
     }
 
+    getDataFsb(val){
+        // do not forget to bind getData in constructor
+        //https://stackoverflow.com/questions/38394015/how-to-pass-data-from-child-component-to-its-parent-in-reactjs
+        console.log(val);
+        this.setState({
+            Num: val    ,
+            SelFeat  : jsonData.features[val]  ,
+            SelProp  : jsonData.features[val].properties,
+        
+        })
+       
+    }
+
 render(){
     return (
         <div >
@@ -72,6 +86,7 @@ render(){
             <div className='row'>
                 <SearchBox
                 JsonData = {this.ParsingKV(this.state.userInfo)}
+                sendData={this.getDataFsb}
                 />
             </div>
     </div>

@@ -1,8 +1,9 @@
 import React, {Component } from 'react';
 
-// import {Form, Button } from 'react-bootstrap'
+import {Form, Button } from 'react-bootstrap'
 
 import ReactSearchBox from 'react-search-box'
+import { constants } from 'fs';
 // import jsonData from '../data/capline_display.json';
 
 
@@ -16,68 +17,76 @@ class SearchBox extends Component{
 
         this.state = {
             data : this.props.JsonData,
-            Data : 2
+            value :'(1,5)',
+            key: 0,
         }
 
     this.updateValue = this.updateValue.bind(this)
     }
 
 
-    updateValue(JsonData){
+    updateValue(event){
+        // var userInfoCopy = JSON.parse(JSON.stringify(this.state.SelProp))
+        console.log(event)
+        // var Boxvalue = event.target.value;
+        this.setState({value: event});
 
-        const RawData = JsonData;
-        const items = []
-        for (var i = 0; i < RawData.length; i++) {
-            // console.log(RawData[i]['properties']['LinkID'])
-            items.push({key:i , value : RawData[i]['properties']['LinkID'], });
+        const feature = this.state.data;
+        const len = feature.length;
+        var keyNum = 0;
+        for (var i = 0; i < len; i++) { 
+            if (feature[i].value === event ){
+                keyNum = i
+            } 
+
         }
-        this.setState({Data: 5});
-        console.log(typeof(this.state.data))
-        console.log(typeof(items))
-        console.log(this.state.Data)
+        this.setState({key: keyNum});
 
-    }   
+        console.log('keyNum: ' + keyNum)
+
+    }
+    // getKeyfrom
 
     componentDidMount(){
-        console.log('origin data')
-        console.log(this.props.JsonData)
-        // this.updateValue(this.props.JsonData)
-        // console.log(this.state.data)
-
-        // const RawData = this.props.JsonData;
-        // // const Feature = RawData[0]
-        // console.log(RawData.length + ' length')
-        // // console.log(this.state.data)
-        // console.log(RawData)
-        // const items = []
-        
-        // for (var i = 0; i < RawData.length; i++) {
-        //     console.log(RawData[i]['properties']['LinkID'])
-        //     items.push({key:i , value : RawData[i]['properties']['LinkID'], });
-        // }
-        // console.log(items)
-        // console.log('items')
-
-        // this.setState({data: items},  () => {console.log(this.state.data)});
-        // console.log('end')
-        // this.updateValue(this.props.JsonData);
+        // console.log('origin data')
+        // console.log(this.props.JsonData)
+        // console.log('value')
+        // console.log(this.state.value)
     }
 
-
+    componentDidUpdate(){   
+        console.log('updtated value')
+        console.log(this.state.value)
+        console.log('updtated key')
+        console.log(this.state.key)
+    }
 
 
 render(){
 
 
     return (
-        
-        <ReactSearchBox
-        placeholder="Placeholder"
+        <div className='container'>
+            <div className='row'>
+            <ReactSearchBox
+        placeholder="Input Link ID eg.(1,5)"
         value="Doe"
         data={this.state.data}
         callback={record => console.log(record)}
         // onSelect = {this.updateValue(this.props.JsonData)}
+        onChange ={this.updateValue.bind(this)}
       />
+      </div>
+      <div className='row'>
+        <Button variant="outline-success"
+        onClick = {() => this.props.sendData(this.state.key)}
+        >
+            Select
+        </Button>
+      </div>
+            
+
+      </div>
     );
     }
 }
