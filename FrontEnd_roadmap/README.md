@@ -123,11 +123,40 @@ Flux vs Redux
 
 Get used to installing boilerplate that sets up the wiring you need and the folder structure outlined in the videos 
 
+Folders (containers, reducers)
+
+* Doesn't have to work one way, but helps to know norms
+* Different libraries will do different( Flux, Redux, etc)
+* Different chunks of code connected to each other
+
+```
+-src
+---components
+---actions
+---reducers
+---store
+---containers
+```
+
+ Broad Overview 
+
+* Going from component to action to reducer to container
+
+* We will look through and do a quick bit of code in each 
+* There are a few things going on under the hood.
+
+```
+npm install -s redux
+
+npm install --save react-redux
+npm install --save react-thunk
+```
+
 
 
 Actions
 
-- Do AJAX calls or send information that should be shared across whole app
+- Do **AJAX calls** or send information that should be shared across whole app
 - Can put some logic in here or in a Container with mapDispatchToProps() (next section)
 - Avoid too much logic here if possible, keep it minimal
 - Actions ﬁred from components, and wrapped in a dispatch function 
@@ -136,16 +165,12 @@ Reducer
 
 - Need to create individual reducers for combineReducer() function
 - Contains state variable relative to that reducer, which is connected to the global state
-- Is interlinked with the Store 
+- Is interlinked with the **Store** 
 
 Container
 
 - Wraps the component and manages component props
 - Can contain dispatch() functions that ﬁre actions
-
-
-
-
 
 To install the stable version:
 

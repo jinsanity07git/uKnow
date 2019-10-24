@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button, Navbar, Nav, Form,FormControl }  from 'react-bootstrap';
 import SimpleSlider from './Slider';
 import Profile from './Profile' ;
+// import SearchBox from './SearchBox' ;
 
 
 class App extends Component{
@@ -24,6 +25,7 @@ class App extends Component{
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+
           <Button variant="outline-info">Search</Button>
         </Form>
       </Navbar>
