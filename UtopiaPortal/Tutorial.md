@@ -132,7 +132,7 @@ href= => to=
    
  <header className="masthead" style={{backgroundImage : `url(${this.props.image})` }}>
    
-  use `` instead of ''
+  use `` instead of ''  (backtick)
 ```
 
 [Setting background image as prop in react](https://stackoverflow.com/questions/49740341/setting-background-image-as-prop-in-react) 
@@ -141,5 +141,14 @@ href= => to=
 
 
 
-## 16-18. Services and portfolio pages part 1-2
+## 16-17. Services and portfolio pages part 1-2
 
+```jsx
+<i className={`fas ${this.props.icon} fa-stack-1x fa-inverse`}></i>
+```
+
+
+
+Portfolio grid
+
+* 
