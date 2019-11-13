@@ -152,3 +152,19 @@ href= => to=
 Portfolio grid
 
 * 
+
+
+
+
+
+#### 18-19 Working with forms in React part 1-2
+
+```jsx
+                          <input className="form-control" id="name" type="text" placeholder="Your Name *" required="required" 
+                          data-validation-required-message="Please enter your name."
+                          value = {this.state.name}
+                          onChange={e => this.setState({name : e.target.value })}
+                          
+                          />
+```
+
