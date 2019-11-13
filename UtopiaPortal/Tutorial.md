@@ -14,7 +14,7 @@
 (base) jinsanity-pro:ulander jinsanity$ npm start
 ```
 
-
+#### 12. Component children
 
 1. Copy 
 
@@ -64,3 +64,82 @@ export default PageWrapper;
 
 
 In `App.js` import  PageWrapper 
+
+
+
+
+
+#### 13. React routing
+
+React-router-dom
+
+* [react-router-dom - npm](https://www.npmjs.com/package/react-router-dom) 
+
+```
+npm i react-router-dom
+npm install --save react-router-dom
+```
+
+* https://reacttraining.com/react-router/
+
+
+
+```jsx
+import {BrowserRouter as Router, Route, Link } from 'react-router-dom';       
+
+				<Router>
+            <Route
+             path ="/home"
+             component={Home}
+             />
+          </Router>
+```
+
+<a> =>  <Link?>
+
+href= => to=
+
+
+
+#### 14-15. Route parameters and HTML slicing part 1&2
+
+ ```jsx
+            <Route
+             path ="/about"
+             render={() => {
+                return (
+                  <h1>I am the about</h1>
+                ) 
+              } }
+             />
+ ```
+
+
+
+
+
+`<br>` => `<br \>`
+
+`<img alt="">` =>  `<img alt=""/>`
+
+
+
+```jsx
+<header className="masthead" style={{backgroundImage :'url("' + this.props.image + '")'}}>
+  
+  
+ <header className="masthead" style={{backgroundImage : 'url(${this.props.image})'} }>
+   
+ <header className="masthead" style={{backgroundImage : `url(${this.props.image})` }}>
+   
+  use `` instead of ''
+```
+
+[Setting background image as prop in react](https://stackoverflow.com/questions/49740341/setting-background-image-as-prop-in-react) 
+
+
+
+
+
+## 16-18. Services and portfolio pages part 1-2
+
