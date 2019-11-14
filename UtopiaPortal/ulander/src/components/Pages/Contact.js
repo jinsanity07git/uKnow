@@ -113,6 +113,15 @@ export default withFormik({
     validationSchema: Yup.object().shape({
         name: Yup.string().min(3,'Come on bro, your name is longer than that').required('You must give us your name.'),
         email: Yup.string().email('You need to give us a valid email').required('We need you email'),
+        phone: Yup.string()
+        .min(10,'Please provide your 10 digit phone number')
+        .max(15).required('Your phone numberis too long.')
+        .required('We need a phone number to reach you at'),
+
+        message: Yup.string()
+        .min(10,'Please provide more detailed infomation')
+        .required('We appreciate your comment!'),
+
 
 }),
     handleSubmit: (values,{setSubmitting}) => {
