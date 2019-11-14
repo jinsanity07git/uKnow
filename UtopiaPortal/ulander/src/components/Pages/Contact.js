@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import Field from "../Common/Filed";
-import Filed from '../Common/Filed';
+import {withFormik, isObject} from 'formik';
 
 
 const fileds ={
@@ -21,21 +21,21 @@ const fileds ={
 
 
 class Contact extends Component {
-    constructor(props){
-        super(props);
+    // constructor(props){
+    //     super(props);
 
-        this.state = {
-            name: ''    ,
-            email: ''   ,
-            phone: ''   ,
-            message: '' ,
-        }
-    }
+    //     this.state = {
+    //         name: ''    ,
+    //         email: ''   ,
+    //         phone: ''   ,
+    //         message: '' ,
+    //     }
+    // }
      
 
-    submitForm = (e) => {
-        alert ("Form submitted. Thank you!");
-    }
+    // submitForm = (e) => {
+    //     alert ("Form submitted. Thank you!");
+    // }
 
     render(){
         return(
@@ -49,7 +49,7 @@ class Contact extends Component {
               </div>
               <div className="row">
                 <div className="col-lg-12">
-                  <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                  <form onSubmit={this.props.handleSubmit} name="sentMessage" novalidate="novalidate">
                     <div className="row">
                             {fileds.sections.map((section,sectionIndex)  => {
 
@@ -60,12 +60,12 @@ class Contact extends Component {
                                         {section.map((filed,i) => {
                                             return <Field {...filed} 
                                                             key={i} 
-                                                            value = {this.state[filed.name]}
-                                                            onChange = { e => this.setState(
-                                                                    {
-                                                                     [filed.name] : e.target.value
-                                                                    }
-                                                                )}
+                                                            value = {this.props.values[filed.name]}
+                                                            name={filed.name}
+                                                            onChange ={this.props.handleChange}
+                                                            onBlur = {this.props.handleBlur}
+c
+
                                                             />
 
                                         })}
@@ -81,7 +81,7 @@ class Contact extends Component {
                         id="sendMessageButton" 
                         className="btn btn-primary btn-xl text-uppercase" 
                         type="submit"
-                        onClick = { e => this.submitForm(e) }
+                        // onClick = { e => this.submitForm(e) }
                         >Send Message</button>
                       </div>
                     </div>
@@ -100,4 +100,26 @@ class Contact extends Component {
 }
 
 
-export default Contact;
+export default withFormik({
+    mapPropsToValues: () => ({
+        name: ''  ,
+        email:  ''  ,
+        phone:  ''  ,
+        message: ''  ,
+
+
+    }),
+    validate:  values => {
+        const errors = {};
+        Object.keys(values).map(v => {
+            if(!values[v]){
+                errors[v] = "Required";
+
+            }
+        })
+        return errors;
+    },
+    handleSubmit: (values,{setSubmitting}) => {
+        alert ('submitted',JSON.stringify(values));
+    }
+})(Contact);
