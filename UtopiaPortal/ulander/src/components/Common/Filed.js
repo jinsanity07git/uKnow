@@ -12,8 +12,11 @@ class Filed extends Component {
                             placeholder={this.props.placeholder}
                             required="required" 
                             data-validation-required-message="Please enter your name."
-                            value = {this.props.value}
-                            onChange={e => this.props.onChange(e)}
+                            // value = {this.props.value}
+                            // onChange={e => this.props.onChange(e)}
+                            name= {this.props.name}
+                            onChange ={this.props.onChange}
+                            onBlur = {this.props.onBlur}
                             
                             />
 
@@ -24,14 +27,22 @@ class Filed extends Component {
                             placeholder={this.props.placeholder}required="required" 
                             data-validation-required-message="Please enter a message."
                             
-                            value = {this.props.value}
-                            onChange={e =>  this.props.onChange(e)}
+                            // value = {this.props.value}
+                            // onChange={e =>  this.props.onChange(e)}
+                            name= {this.props.name}
+                            onChange ={this.props.onChange}
+                            onBlur = {this.props.onBlur}
                             ></textarea>
                     }
 
 
                     
-                    <p className="help-block text-danger"></p>
+                    <p className="help-block text-danger">
+                        {(this.props.touched && this.props.errors) && 
+                            <span> This filed is required</span>
+                        
+                        }
+                    </p>
                 </div>
                 )
 
