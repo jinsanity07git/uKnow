@@ -4,6 +4,8 @@ import image from  '../assets/img/header-bg.jpg';
 import Services from '../Common/Services';
 import Portfolio from '../Common/Portfolio';
 
+import Team from '../Common/Team';
+
 class Home extends Component {
     render(){
         return(
@@ -20,6 +22,7 @@ class Home extends Component {
 
               <Services/>
               <Portfolio/>
+              <Team/>
 
            </div>
         )
