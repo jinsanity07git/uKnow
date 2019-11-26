@@ -3,12 +3,17 @@ import {Link } from 'react-router-dom';
 
 class PageWrapper extends Component {
 
+
+
     render() {
+        var divStyle = {
+            backgroundColor :'#343a409e'
+          };
 
         return (       
         <div>
             {/* <!-- Navigation --> */}
-              <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+              <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style={ divStyle}>
                   <div className="container">
                   <Link className="navbar-brand js-scroll-trigger" to="/">Utopia</Link>
                   <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

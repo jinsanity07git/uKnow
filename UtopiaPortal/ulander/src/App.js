@@ -6,7 +6,11 @@ import PageWrapper from './components/PapeWrapper';
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Contact from './components/Pages/Contact';
+import Team from './components/Common/Team';
+import Portfolio from './components/Common/Portfolio';
+import Services from './components/Common/Services';
 
+import Footer from './components/Common/Footer';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 function App() {
@@ -31,11 +35,28 @@ function App() {
              component={Contact}
              /> 
 
+            <Route
+             path ="/team"
+             component={Team}
+            />   
+
+
+            <Route
+             path ="/portfolio"
+             component={Portfolio}
+            />   
+
+            <Route
+             path ="/services"
+             component={Services}
+            />   
+
 
           {/* <Home /> */}
         </PageWrapper>
       </Router>
-        <h1>hello</h1>
+        
+        <Footer/>
     </div>
   );
 }
