@@ -8,7 +8,7 @@ render(){
 
     return(
         <div className="col-md-3">
-        <a href= {this.props.link} >
+        <a href= {this.props.link} target="_blank">
             <span className="fa-stack fa-4x">
                 <i className="fas fa-circle fa-stack-2x text-primary"></i>
                 <i className={`fas ${this.props.icon} fa-stack-1x fa-inverse`}></i>

@@ -285,3 +285,9 @@ export default zh_CN;
 
 
 
+* [How to Make Links Open in a New Window or Tab ...](https://www.thesitewizard.com/html-tutorial/open-links-in-new-window-or-tab.shtml) 
+
+```
+<a href="https://www.thesitewizard.com/" target="_blank">thesitewizard.com</a>
+```
+
