@@ -13,6 +13,8 @@ import Services from './components/Common/Services';
 import Footer from './components/Common/Footer';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
+import { FormattedMessage } from 'react-intl';
+
 function App() {
   return (
     <div className="App">
@@ -51,6 +53,11 @@ function App() {
              component={Services}
             />   
 
+            <FormattedMessage
+                id='hello'
+                description='say hello to Howard.'
+                defaultMessage='Hello, Howard'
+                />
 
           {/* <Home /> */}
         </PageWrapper>

@@ -1,5 +1,10 @@
 import React,{Component} from 'react';
 import {Link } from 'react-router-dom'; 
+// import {IntlProvider, FormattedMessage} from 'react-intl';
+// import zh_CN from './locale/zh_CN';
+// import en_US from './locale/en_US';
+// import intl from 'intl';
+// // addLocaleDate([...en,...zh]);
 
 class PageWrapper extends Component {
 

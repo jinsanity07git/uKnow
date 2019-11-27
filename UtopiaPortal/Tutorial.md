@@ -1,3 +1,5 @@
+
+
 ###   Building a ReactJS Website
 
 #### 11. React website setup
@@ -211,5 +213,44 @@ validationSchema
         message: Yup.string()
         .min(10,'Please provide more detailed infomation')
         .required('We appreciate your comment!'),
+```
+
+
+
+## Extra 
+
+customization
+
+* [在React 项目中使用React-intl 实现多语言支持- 前端修炼 ...](https://segmentfault.com/a/1190000005824920) 
+  * **[react-intl](https://github.com/formatjs/react-intl)**
+
+Index.js
+
+```jsx
+import { FormattedMessage,IntlProvider } from 'react-intl';
+import zh_CN from './locale/zh_CN';
+import en_US from './locale/en_US';
+import intl from 'intl';
+
+// addLocaleDate([...en,...zh]);
+
+ReactDOM.render(  <IntlProvider 
+                    locale={'zh'} 
+                    messages={zh_CN}> 
+                        <App /> 
+                  </IntlProvider>
+    , document.getElementById('root'));
+
+```
+
+App.js
+
+```jsx
+import { FormattedMessage } from 'react-intl';
+<FormattedMessage
+  id='hello'
+  description='say hello to Howard.'
+  defaultMessage='Hello, Howard'
+  />
 ```
 
