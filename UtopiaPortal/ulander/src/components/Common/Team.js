@@ -5,6 +5,7 @@ import TeamMember from './TeamMember';
 import img1 from '../assets/img/team/1.jpg';
 import img2 from '../assets/img/team/2.jpg';
 import img3 from '../assets/img/team/3.jpg';
+import {FormattedMessage} from 'react-intl';
 
 const TeamMembers = [
 
@@ -12,8 +13,8 @@ const TeamMembers = [
     {name: 'Threads' ,title: 'illustration',image: img2 },
     {name: 'Threads' ,title: 'illustration',image: img3 },
 
-
 ]
+
 
 
 class Team extends Component {
@@ -25,8 +26,8 @@ class Team extends Component {
                         <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                            <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
-                            <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                            <h2 className="section-heading text-uppercase"><FormattedMessage id='Nav.Team'/> </h2>
+                            <h3 className="section-subheading text-muted"><FormattedMessage id='Team.subheading'/></h3>
                             </div>
                         </div>
                         <div className="row">

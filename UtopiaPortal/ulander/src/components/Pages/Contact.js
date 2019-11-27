@@ -3,7 +3,7 @@ import Field from "../Common/Filed";
 import {withFormik} from 'formik';
 import * as Yup from 'yup';
 
-
+import {FormattedMessage} from 'react-intl';
 
 const fileds ={
     sections:[
@@ -45,8 +45,8 @@ class Contact extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-lg-12 text-center">
-                  <h2 className="section-heading text-uppercase">Contact Us</h2>
-                  <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                  <h2 className="section-heading text-uppercase"><FormattedMessage id='Nav.Contact'/> </h2>
+                  <h3 className="section-subheading text-muted"><FormattedMessage id='Contact.subheading'/></h3>
                 </div>
               </div>
               <div className="row">
@@ -83,7 +83,7 @@ class Contact extends Component {
                         className="btn btn-primary btn-xl text-uppercase" 
                         type="submit"
                         // onClick = { e => this.submitForm(e) }
-                        >Send Message</button>
+                        ><FormattedMessage id= 'Contact.button'/></button>
                       </div>
                     </div>
                   </form>

@@ -1,10 +1,7 @@
 import React,{Component} from 'react';
 import {Link } from 'react-router-dom'; 
-// import {IntlProvider, FormattedMessage} from 'react-intl';
-// import zh_CN from './locale/zh_CN';
-// import en_US from './locale/en_US';
-// import intl from 'intl';
-// // addLocaleDate([...en,...zh]);
+import {FormattedMessage} from 'react-intl';
+
 
 class PageWrapper extends Component {
 
@@ -28,19 +25,46 @@ class PageWrapper extends Component {
                   <div className="collapse navbar-collapse" id="navbarResponsive">
                       <ul className="navbar-nav text-uppercase ml-auto">
                       <li className="nav-item">
-                          <Link className="nav-link js-scroll-trigger" to="/services">Services</Link>
+                          <Link className="nav-link js-scroll-trigger" to="/services">
+                                <FormattedMessage
+                                id='Nav.Services'
+                                defaultMessage='服务'
+                                />
+                            </Link>
                       </li>
                       <li className="nav-item">
-                          <Link className="nav-link js-scroll-trigger" to="/portfolio">Portfolio</Link>
+                          <Link className="nav-link js-scroll-trigger" to="/portfolio">
+                                <FormattedMessage
+                                id='Nav.Portfolio'
+                                defaultMessage='案例'
+                                />
+                              </Link>
+                      </li>
+
+                      <li className="nav-item">
+                          <Link className="nav-link js-scroll-trigger" to="/about">
+                                <FormattedMessage
+                                        id='Nav.About'
+                                        defaultMessage='关于'
+                                        />
+                            </Link>
                       </li>
                       <li className="nav-item">
-                          <Link className="nav-link js-scroll-trigger" to="/about">About</Link>
+                          <Link className="nav-link js-scroll-trigger" to="/team">
+                                <FormattedMessage
+                                id='Nav.Team'
+                                defaultMessage='团队'
+                                />
+                          </Link>
                       </li>
                       <li className="nav-item">
-                          <Link className="nav-link js-scroll-trigger" to="/team">Team</Link>
-                      </li>
-                      <li className="nav-item">
-                          <Link className="nav-link js-scroll-trigger" to="/contact">Contact</Link>
+                          <Link className="nav-link js-scroll-trigger" to="/contact">
+                              
+                          <FormattedMessage
+                                id='Nav.Contact'
+                                defaultMessage='联系我们'
+                                />
+                          </Link>
                       </li>
                       </ul>
                   </div>

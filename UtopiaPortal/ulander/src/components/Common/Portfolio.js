@@ -6,6 +6,9 @@ import img3 from '../assets/img/portfolio/03-thumbnail.jpg'
 import img4 from '../assets/img/portfolio/04-thumbnail.jpg'
 import img5 from '../assets/img/portfolio/05-thumbnail.jpg'
 import img6 from '../assets/img/portfolio/06-thumbnail.jpg'
+
+import {FormattedMessage} from 'react-intl';
+
 const portfolio = [
 
     {title: 'Threads' ,subtitle: 'illustration',image: img1 },
@@ -23,8 +26,8 @@ class Portfolio extends Component {
                 <div className="container">
                     <div className="row">
                     <div className="col-lg-12 text-center">
-                        <h2 className="section-heading text-uppercase">Portfolio</h2>
-                        <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h2 className="section-heading text-uppercase"><FormattedMessage id='Nav.Portfolio'/> </h2>
+                        <h3 className="section-subheading text-muted"> <FormattedMessage id='Portfolio.subheading'/></h3>
                     </div>
                     </div>
                     <div className="row">
