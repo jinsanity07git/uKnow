@@ -7,13 +7,28 @@ import {FormattedMessage} from 'react-intl';
 
 const services =[
 
-    {title: 'uOS' ,  icon : 'fa-desktop'  ,  description : '在云桌面中管理你的项目： 项目数据用装备生成，所有结论用数据说话，数据装备在地图连通, 一切细节则尽收眼底。',
-    link: "http://utb.cloud/uOS/"},
-    {title: 'Utopia' ,  icon : 'fa-wrench'  ,  description : '在云商城中购买你的装备：量入为出，按需定制，只选对的，不选贵的。 ',
+    {title: 'uDev' , icon : 'fa-code',  
+    intro : '在云开发中部署你的装备',
+    feature: '可编程',
+    link: "http://utb.cloud/uDev/",
+    description : 
+    '一次部署,按需迭代,快速响应,引领未来' },
+
+    {title: 'Utopia' ,  icon : 'fa-wrench'  ,  description : '量入为出,按需定制,只选对的,不选贵的 ',
+    intro : '在云商城中购买你的装备',
+    feature: '能拼接',
     link: "http://utb.cloud/Utopia/"},
-    {title: 'uDev' , icon : 'fa-code',  description : '在云开发中部署你的装备：一次部署，按需迭代，快速响应，引领未来。' ,
-    link: "http://utb.cloud/uDev/"},
-    {title: 'uKnow' , icon : 'fa-book' , description : '在云智库中分享你的经验：装备要迭代，项目会过去，唯有从业人员的经验是平台的进步源泉。' ,
+
+
+    {title: 'uOS' ,  icon : 'fa-desktop'  ,  description : ' 项目数据用装备生成,所有结论用数据说话,数据装备在地图连通,一切细节则尽收眼底',
+    intro : '在云桌面中管理你的项目',
+    feature: '善组织',
+    link: "http://utb.cloud/uOS/"},
+
+
+    {title: 'uKnow' , icon : 'fa-book' , description : '装备要迭代,项目会过去,唯有从业人员的经验是平台的进步源泉' ,
+    intro : '在云智库中分享你的经验',
+    feature: '易分享',
     link: "http://utb.cloud/uKnow/"},
 ];
 

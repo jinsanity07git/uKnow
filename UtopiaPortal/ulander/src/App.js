@@ -9,6 +9,7 @@ import Contact from './components/Pages/Contact';
 import Team from './components/Common/Team';
 import Portfolio from './components/Common/Portfolio';
 import Services from './components/Common/Services';
+import Price from './components/Common/Price';
 
 import Footer from './components/Common/Footer';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
@@ -40,6 +41,10 @@ function App() {
              component={Team}
             />   
 
+            <Route
+             path ="/pricing"
+             component={Price}
+            />    
 
             <Route
              path ="/portfolio"

@@ -50,6 +50,14 @@ class PageWrapper extends Component {
                             </Link>
                       </li>
                       <li className="nav-item">
+                          <Link className="nav-link js-scroll-trigger" to="/pricing">
+                                <FormattedMessage
+                                        id='Nav.Priciing'
+                                        defaultMessage='价格'
+                                        />
+                            </Link>
+                      </li>
+                      <li className="nav-item">
                           <Link className="nav-link js-scroll-trigger" to="/team">
                                 <FormattedMessage
                                 id='Nav.Team'

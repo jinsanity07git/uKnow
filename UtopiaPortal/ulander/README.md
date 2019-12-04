@@ -1,4 +1,28 @@
+Port 80
+
+
+
+
+
+./opt/tomcat/9.0.24/webapps/uDev/WEB-INF/jsp
+
+
+
+
+
+
+
+/opt
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+
+* [React Newline to break (nl2br) - Kevin Simper - Medium](https://medium.com/@kevinsimper/react-newline-to-break-nl2br-a1c240ba746) 
+
+  
 
 ## Available Scripts
 
