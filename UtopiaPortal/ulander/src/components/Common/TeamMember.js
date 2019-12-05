@@ -1,6 +1,6 @@
 
 import React,{Component} from 'react';
-
+import {FormattedMessage} from 'react-intl';
 
 
 
@@ -15,23 +15,25 @@ render(){
             <img className="mx-auto rounded-circle" src={this.props.image} alt="" />
             <h4>{this.props.name}</h4>
             <p className="text-muted">{this.props.title}</p>
-            {/* <ul className="list-inline social-buttons">
-            <li className="list-inline-item">
-                <a href="#">
-                <i className="fab fa-twitter"></i>
+
+
+            <p>
+
+                <a class="btn btn-secondary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"
+                style={{fontSize : 18, fontStyle: 'italic' }}>
+                    <FormattedMessage id='Team.button'/>
                 </a>
-            </li>
-            <li className="list-inline-item">
-                <a href="#">
-                <i className="fab fa-facebook-f"></i>
-                </a>
-            </li>
-            <li className="list-inline-item">
-                <a href="#">
-                <i className="fab fa-linkedin-in"></i>
-                </a>
-            </li>
-            </ul> */}
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body" style={{color : 'gray'}}>
+
+                    {this.props.description.split('，').map((item, key) => {
+                        return <span key={key} >{item}<br/></span>
+                        })}
+
+                </div>
+            </div>
+
         </div>
         </div>
     )

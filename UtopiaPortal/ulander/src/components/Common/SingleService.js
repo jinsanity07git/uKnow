@@ -30,12 +30,9 @@ render(){
         <div class="collapse" id="collapseExample">
             <div class="card card-body" style={{color : 'gray'}}>
 
-
                 {this.props.description.split(',').map((item, key) => {
                     return <span key={key} >{item}<br/></span>
                     })}
-
-
 
             </div>
         </div>

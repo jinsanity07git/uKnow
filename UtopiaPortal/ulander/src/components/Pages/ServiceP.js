@@ -1,30 +1,29 @@
 import React,{Component} from 'react';
 import Header from '../Common/Header';
-import image from  '../assets/img/intersection.jpeg';
+import image from  '../assets/img/utb_header.png';
 import Services from '../Common/Services';
 import Portfolio from '../Common/Portfolio';
 import Team from '../Common/Team';
 
 import {FormattedMessage} from 'react-intl';
 
-class Home extends Component {
+class ServiceP extends Component {
     render(){
         return(
 
           <div>
 
               <Header
-              title = {<FormattedMessage id='Home.Title' defaultMessage='UTB'/>}
-              subtitle = {<FormattedMessage id='Home.subtitle' />}
-              bottonText = {<FormattedMessage id='Home.bottonText' defaultMessage='"Learn more"'/>} 
+            //   title = {<FormattedMessage id='Home.Title' defaultMessage='UTB'/>}
+            //   subtitle = {<FormattedMessage id='Home.subtitle' />}
+            //   bottonText = {<FormattedMessage id='ServiceP.bottonText' defaultMessage='"Learn more"'/>} 
             //   showButton ={true}
-              link = '/services'
+            //   link = '#services'
               image = {image}
               />
 
               <Services/>
-              <Portfolio/>
-              <Team/>
+
 
 
 
@@ -35,5 +34,5 @@ class Home extends Component {
     }
 }
 
-export default Home ;
+export default ServiceP ;
  

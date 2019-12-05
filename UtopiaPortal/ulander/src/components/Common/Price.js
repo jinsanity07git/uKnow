@@ -7,25 +7,35 @@ import {FormattedMessage} from 'react-intl';
 
 const services =[
 
-    {title: '基础方案' , icon : 'fa-code',  
+    {title: '基础方案' , icon : 'fa-cogs',  button: '开始体验',
 
     description : 
-    '一次部署,按需迭代,快速响应,引领未来' },
+    '一次部署,按需迭代,快速响应,引领未来' ,
 
-
-    {title: '私有云部署' ,  icon : 'fa-wrench'  ,  
-    
-    description : '量入为出,按需定制,只选对的,不选贵的 '
+    features : '500MB disk storage ,Up to 10 private maps, Up to 3 public maps,Up to 10 datasets, Basic support'
     },
 
-    {title: '个人会员' ,  icon : 'fa-wrench'  ,  
+
+    {title: '私有云部署' ,  icon : 'fa-cloud' ,button: '联系我们', 
     
-    description : '量入为出,按需定制,只选对的,不选贵的 '
+    description : '量入为出,按需定制,只选对的,不选贵的 ',
+
+    features : 'Custom disk storage ,Unlimited private maps,Unlimited public maps,Unlimited datasets, Enterprise support packages'
+    
     },
 
-    {title: '企业会员' ,  icon : 'fa-wrench'  ,  
+    {title: '个人会员' ,  icon : 'fa-user'   ,button: '15元/月', 
     
-    description : '量入为出,按需定制,只选对的,不选贵的 '
+    description : '量入为出,按需定制,只选对的,不选贵的 ',
+
+    features : '5GB disk storage ,Up to 50 private maps, Up to 10 public maps,Up to 50 datasets, Membership support'
+    },
+
+    {title: '企业会员' ,  icon : 'fa-building'  ,button: '150元/月', 
+    
+    description : '量入为出,按需定制,只选对的,不选贵的 ',
+
+    features : '50GB disk storage ,Up to 100 private maps, Up to 50 public maps,Up to 100 datasets, Membership support'
     },
 
 

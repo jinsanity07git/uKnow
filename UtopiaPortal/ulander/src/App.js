@@ -5,6 +5,8 @@ import PageWrapper from './components/PapeWrapper';
 
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
+import ServiceP from './components/Pages/ServiceP';
+
 import Contact from './components/Pages/Contact';
 import Team from './components/Common/Team';
 import Portfolio from './components/Common/Portfolio';
@@ -53,7 +55,7 @@ function App() {
 
             <Route
              path ="/services"
-             component={Services}
+             component={ServiceP}
             />   
 
 
