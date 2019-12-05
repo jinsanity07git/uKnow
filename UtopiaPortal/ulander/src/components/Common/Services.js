@@ -26,7 +26,7 @@ const services =[
     link: "http://utb.cloud/uOS/"},
 
 
-    {title: 'uKnow' , icon : 'fa-book' , description : '装备要迭代,项目会过去,唯有从业人员的经验是平台的进步源泉' ,
+    {title: 'uCircle' , icon : 'fa-book' , description : '装备要迭代,项目会过去,唯从业人员之经验,乃平台的进步源泉' ,
     intro : '在云智库中分享你的经验',
     feature: '易分享',
     link: "http://utb.cloud/uKnow/"},

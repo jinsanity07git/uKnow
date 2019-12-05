@@ -16,6 +16,11 @@ render(){
             <h4>{this.props.name}</h4>
             <p className="text-muted">{this.props.title}</p>
 
+            <li className="list-inline-item">
+                        <a href={this.props.uCircle}>
+                            <i class="fa fa-address-book" aria-hidden="true"></i>
+                        </a>
+            </li>
 
             <p>
 
