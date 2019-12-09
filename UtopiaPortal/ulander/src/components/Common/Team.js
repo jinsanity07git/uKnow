@@ -8,7 +8,8 @@ import img3 from '../assets/img/team/XinyuLiu.jpeg';
 import img4 from '../assets/img/team/XiangyongLuo.jpg';
 import img5 from '../assets/img/team/ZihaoJin.jpg';
 import img6 from '../assets/img/team/DahaiHan.jpg';
-import img7 from '../assets/img/team/2.jpg';
+import img7 from '../assets/img/team/WenQing.jpeg';
+import img8 from '../assets/img/team/2.jpg';
 import {FormattedMessage} from 'react-intl';
 
 const TeamMembers = [
@@ -18,17 +19,15 @@ const TeamMembers = [
     , description : '城市交通研究中心主任 ，utb cloud平台创始人，Utopia团队负责人'
     ,   uCircle : 'http://utb.cloud/uKnow/user/1532346069814_user'
     },
-    {name: '付志成' ,title: '博士（美国威斯康辛大学）',image: img7 
+    {name: '付志成' ,title: '博士（美国威斯康辛大学）',image: img8 
     , description : '研究领域：，交通诊断，信号配时，交通统计应用' 
     ,  uCircle : 'http://utb.cloud/uKnow/user/1532315609523_user'
     },
 
     {name: '陈文卿' ,title: '博士（美国威斯康辛大学，同济大学）',image: img7 
-    , description : '研究领域：，交通诊断，信号配时，交通统计应用' 
+    , description : '研究领域：，交通规划，信号控制，车联网' 
     ,  uCircle : 'http://utb.cloud/uKnow/user/1533293391063_user'
     },
-
-
 
     {name: '谭玮杰' ,title: '博士研究生(美国威斯康辛大学)',image: img2 
     , description : '研究领域：，交通诊断，信号配时，交通统计应用'
@@ -65,15 +64,20 @@ const TeamMembers = [
 
 class Team extends Component {
     render(){
+        const page = {
+            backgroundColor:'#395260',
+          }
+
         return(
             <div>
                 
-                    <section className="bg-light page-section" id="team">
+                
+                    <section className=" page-section" id="team"  style={page}>
                         <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
                             <h2 className="section-heading text-uppercase"><FormattedMessage id='Nav.Team'/> </h2>
-                            <h3 className="section-subheading text-muted"><FormattedMessage id='Team.subheading'/></h3>
+                            <h3 className="section-subheading text-white"  ><FormattedMessage id='Team.subheading'/></h3>
                             </div>
                         </div>
                         <div className="row">

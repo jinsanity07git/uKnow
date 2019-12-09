@@ -13,7 +13,7 @@ render(){
         <div className="col-md-6">
 
 
-            <div class="card" style={{margin:'5px' , width: '30rem' ,textAlign: 'center'}}>
+            <div class="card" style={{margin:'5px' , width: '30rem' ,textAlign: 'center',backgroundColor:'#a29b7c'}}>
                 {/* <img src="..." class="card-img-top" alt="..."/>
              */}
                 <div class="card-img-top">
@@ -27,7 +27,7 @@ render(){
                     <h5 class="card-title">{this.props.title}</h5>
                     <p class="card-text">{this.props.description}</p>
                     
-                    <div class="bg-light mb-3" style={{margin:'auto' , width: '60%' ,textAlign: 'left'}}>
+                    <div class=" mb-3" style={{margin:'auto' , width: '60%' ,textAlign: 'left', backgroundColor:'#a29b7c'}}>
                         <div class="card-text" style={{margin:'auto'}}>
                             {this.props.features.split(',').map((item, key) => {
                             return <li key={key} >{item}<br/></li>

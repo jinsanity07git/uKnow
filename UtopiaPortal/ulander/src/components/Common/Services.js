@@ -35,10 +35,15 @@ const services =[
 
 class Services extends Component {
     render(){
+
+        const page = {
+            // 苍白
+            backgroundColor:'#d1d9e0',
+          }
         return(
             <div>
 
-                <section class="page-section" id="services">
+                <section class="page-section" id="services" style= {page}>
                     <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">

@@ -28,15 +28,21 @@ const portfolio = [
 
 ]
 
+
+
 class Portfolio extends Component {
     render(){
+        const page = {
+            // 苍色
+            backgroundColor:'#75878a',
+          }
         return(
-                <section className="bg-light page-section" id="portfolio">
+                <section className="page-section" id="portfolio" style={page}>
                 <div className="container">
                     <div className="row">
                     <div className="col-lg-12 text-center">
                         <h2 className="section-heading text-uppercase"><FormattedMessage id='Nav.Portfolio'/> </h2>
-                        <h3 className="section-subheading text-muted"> <FormattedMessage id='Portfolio.subheading'/></h3>
+                        <h3 className="section-subheading text-light"> <FormattedMessage id='Portfolio.subheading'/></h3>
                     </div>
                     </div>
                     <div className="row">

@@ -14,7 +14,7 @@ render(){
         <div className="team-member">
             <img className="mx-auto rounded-circle" src={this.props.image} alt="" />
             <h4>{this.props.name}</h4>
-            <p className="text-muted">{this.props.title}</p>
+            <p className="text-white">{this.props.title}</p>
 
             <li className="list-inline-item">
                         <a href={this.props.uCircle}>
