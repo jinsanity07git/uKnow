@@ -42,7 +42,7 @@ const TeamMembers = [
 
 
     {name: '韩大海' ,title: '博士研究生(美国威斯康辛大学)',image: img6 
-    , description : '研究领域：，公交线网规划，灵活型公交系统设计，城市综合交通走廊规划与设计，交通信号控制与协调优化，交通大数据分析等。'
+    , description : '研究领域：，公交线网规划，灵活型公交系统设计，城市综合交通走廊规划与设计，交通信号控制与协调优化，交通大数据分析等'
     ,   uCircle : 'http://utb.cloud/uKnow/user/1532439832861_user'
     },
 

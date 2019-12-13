@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Header extends Component {
     render(){
         return(
-          <header className="masthead" style={{backgroundImage : `url(${this.props.image})` }}>
+          <header className="masthead" style={{backgroundImage : `url(${this.props.image})` ,height: '600px'}}>
           <div className="container">
             <div className="intro-text">
               <div className="intro-lead-in">{this.props.title}</div>

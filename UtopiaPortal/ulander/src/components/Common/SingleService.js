@@ -6,6 +6,10 @@ class SingleService extends Component {
     
 
 render(){
+    const text = {
+        // 月白
+            color:'#d6ecf0',
+        }
 
     return(
 
@@ -18,17 +22,17 @@ render(){
             </span>
         </a>
         <h4 className="service-heading">{this.props.title}</h4>
-        <p className="text-muted">{this.props.intro}</p>
+        <p className="text " style= {text}>{this.props.intro}</p>
 
         <p>
 
         <a class="btn btn-secondary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"
-        style={{fontSize : 18, fontStyle: 'italic' }}>
+        style={{fontSize : 18, fontStyle: 'italic' ,backgroundColor:"#549688"}}>
             {this.props.feature}
         </a>
         </p>
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body" style={{color : 'gray'}}>
+        <div class="collapse" id="collapseExample" >
+            <div class="card card-body" style={{backgroundColor:"#065279", color : '#bacac6'}}>
 
                 {this.props.description.split(',').map((item, key) => {
                     return <span key={key} >{item}<br/></span>

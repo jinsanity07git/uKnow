@@ -43,9 +43,9 @@
 
 ## Activities:
 
-### Presentation at TRB Annual Meeting 2019
+### Smart Cities-Smart Futures Launch Event
 
-Elements of Successful Universal Student Transit Pass Programs from Planning to Implementation: A Benchmark Study
+* Guest speaker ( at the UWM Entrepreneurship Center on **September 9th, 2019**) 
 
 ### Finalist in Foxconn’s Smart Cities-Smart Futures Competition 
 
