@@ -44,6 +44,11 @@ const services =[
 
 class Price extends Component {
     render(){
+
+    const text = {
+        // 
+            color:'#FFFFFF',
+        }
         return(
             <div>
 
@@ -51,8 +56,8 @@ class Price extends Component {
                     <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">   <FormattedMessage id='Nav.Priciing'/> </h2>
-                        <h3 class="section-subheading text-muted">    <FormattedMessage id='Priciing.subheading'/>  </h3>
+                        <h2 class="section-heading text-uppercase" style={text} >   <FormattedMessage id='Nav.Priciing'/> </h2>
+                        <h3 class="section-subheading " style={text}>    <FormattedMessage id='Priciing.subheading'/>  </h3>
                         </div>
                     </div>
                     <div class="row text-center">

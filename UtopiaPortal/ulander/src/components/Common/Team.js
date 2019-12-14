@@ -65,9 +65,12 @@ const TeamMembers = [
 class Team extends Component {
     render(){
         const page = {
-            backgroundColor:'#395260',
+            backgroundColor:'#121212',
           }
 
+          const text = {
+                color:'#FFFFFF',
+            }
         return(
             <div>
                 
@@ -76,7 +79,7 @@ class Team extends Component {
                         <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                            <h2 className="section-heading text-uppercase"><FormattedMessage id='Nav.Team'/> </h2>
+                            <h2 className="section-heading text-uppercase" style={text}><FormattedMessage id='Nav.Team'/> </h2>
                             <h3 className="section-subheading text-white"  ><FormattedMessage id='Team.subheading'/></h3>
                             </div>
                         </div>

@@ -5,6 +5,9 @@ import {FormattedMessage} from 'react-intl';
 
 class About extends Component {
     render(){
+        const text = {
+            color:'#FFFFFF',
+        }
         return(
             <div>
 
@@ -23,8 +26,8 @@ class About extends Component {
                         <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                            <h2 className="section-heading text-uppercase"><FormattedMessage id='Nav.About' /></h2>
-                            <h3 className="section-subheading text-muted"> <FormattedMessage id='About.subheading' /></h3>
+                            <h2 className="section-heading text-uppercase" style={text}><FormattedMessage id='Nav.About' /></h2>
+                            <h3 className="section-subheading " style={text}> <FormattedMessage id='About.subheading' /></h3>
                             </div>
                         </div>
                         <div className="row">

@@ -23,7 +23,7 @@ render(){
 
                 
             </h4>
-            <p className="text-white">
+            <p className="text-white"  style={{ color : '#14ffec'}}>
                 {this.props.title} 
                 <span> </span>
                 <li className="list-inline-item">
@@ -37,7 +37,7 @@ render(){
 
 
             <div class="collapse" id="collapseExample">
-                <div class="card card-body" style={{backgroundColor:"#065279", color : '#bacac6'}}>
+                <div class="card card-body" style={{backgroundColor:"#27272780", color : '#FFFFFF'}}>
 
                     {this.props.description.split('，').map((item, key) => {
                         return <span key={key} >{item}<br/></span>

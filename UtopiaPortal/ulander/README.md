@@ -22,7 +22,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 * [React Newline to break (nl2br) - Kevin Simper - Medium](https://medium.com/@kevinsimper/react-newline-to-break-nl2br-a1c240ba746) 
 
-  
+
+
+
+Dark theme 
+
+* https://material.io/design/color/dark-theme.html# 
+* 
 
 ## Available Scripts
 

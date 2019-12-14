@@ -6,11 +6,14 @@ class SingleService extends Component {
     
 
 render(){
+    // const text = {
+    //     // 月白
+    //         color:'#d6ecf0',
+    //     }
     const text = {
-        // 月白
-            color:'#d6ecf0',
+        // 
+            color:'#FFFFFF',
         }
-
     return(
 
         
@@ -21,8 +24,8 @@ render(){
                 <i className={`fas ${this.props.icon} fa-stack-1x fa-inverse`}></i>
             </span>
         </a>
-        <h4 className="service-heading">{this.props.title}</h4>
-        <p className="text " style= {text}>{this.props.intro}</p>
+        <h4 className="service-heading"  style= {text} >  {this.props.title}</h4>
+        <p className="text " style= {{color : '#14FFEC'}}              > {this.props.intro}</p>
 
         <p>
 
@@ -32,7 +35,7 @@ render(){
         </a>
         </p>
         <div class="collapse" id="collapseExample" >
-            <div class="card card-body" style={{backgroundColor:"#065279", color : '#bacac6'}}>
+            <div class="card card-body" style={{backgroundColor:"#272727", color : '#bacac6'}}>
 
                 {this.props.description.split(',').map((item, key) => {
                     return <span key={key} >{item}<br/></span>

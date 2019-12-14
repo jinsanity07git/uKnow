@@ -18,6 +18,11 @@ class PortfolioItem extends Component {
         },
 
       }
+
+      const text = {
+        // 
+            color:'#FFFFFF',
+        }
           return(
 
                   <div className="col-md-4 col-sm-6 portfolio-item"  >
@@ -29,9 +34,9 @@ class PortfolioItem extends Component {
                       </div>
                       <img className="img-thumbnail "   src={this.props.image} style={{width: 400, height: 200 }}/>
                     </a>
-                    <div className="portfolio-caption" style={{backgroundColor:"#065279", color : '#bacac6'}}>
-                      <h4>{this.props.title}</h4>
-                      <p className="text">{this.props.subtitle}</p>
+                    <div className="portfolio-caption" style={{backgroundColor:"#27272780", color : '#FFFFFF'}}>
+                      <h4  >{this.props.title}</h4>
+                      <p className="text" style={{ color : '#14ffec'}} >{this.props.subtitle}</p>
                     </div>
                   </div>
                 )
