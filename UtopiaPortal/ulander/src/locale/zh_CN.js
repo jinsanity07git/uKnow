@@ -10,6 +10,12 @@ const zh_CN = {
     'Home.Title'    :   "UTB",
     'Home.subtitle' :   "专业理想始发站",
     'Home.bottonText' : "了解更多",
+    'Home.Title1'    :   "UTB",
+    'Home.subtitle1' :   "专业理想始发站",
+    'Home.Title2'    :   "UTB",
+    'Home.subtitle2' :   "云端服务拼接场",
+    'Home.Title3'    :   "UTB",
+    'Home.subtitle3' :   "知识生产工作台",
 
     'ServiceP.bottonText' : "四大板块",
 

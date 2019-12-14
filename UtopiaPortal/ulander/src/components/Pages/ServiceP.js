@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import Header from '../Common/Header';
-import image from  '../assets/img/utb_header.png';
+import image from  '../assets/img/utb_headerNoBg.png';
 import Services from '../Common/Services';
 import Portfolio from '../Common/Portfolio';
 import Team from '../Common/Team';
