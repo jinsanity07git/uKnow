@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import {Link } from 'react-router-dom'; 
 import {FormattedMessage} from 'react-intl';
-
+import img1 from './assets/img/utbLogo70.png';
 
 class PageWrapper extends Component {
 
@@ -15,12 +15,13 @@ class PageWrapper extends Component {
         return (       
         <div>
             {/* <!-- Navigation --> */}
+            
               <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style={ divStyle}>
                   <div className="container">
+                      
                   <Link className="navbar-brand js-scroll-trigger" to="/">
-                    <i class="fa fa-home" aria-hidden="true"></i>
-                    <tb/>
-                    Utopia 
+                  {/* <i class="fa fa-home" aria-hidden="true" style={{marginTop:10}}></i>  */}
+                  <img src={img1} alt="" />
                   </Link>
                   <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                       Menu
@@ -82,6 +83,7 @@ class PageWrapper extends Component {
                   </div>
                   </div>
               </nav>
+
 
             {this.props.children}
       </div>

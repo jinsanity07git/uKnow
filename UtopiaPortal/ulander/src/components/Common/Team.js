@@ -9,7 +9,7 @@ import img4 from '../assets/img/team/XiangyongLuo.jpg';
 import img5 from '../assets/img/team/ZihaoJin.jpg';
 import img6 from '../assets/img/team/DahaiHan.jpg';
 import img7 from '../assets/img/team/WenQing.jpeg';
-import img8 from '../assets/img/team/2.jpg';
+import img8 from '../assets/img/team/ZhichengFu.png';
 import {FormattedMessage} from 'react-intl';
 
 const TeamMembers = [
@@ -20,7 +20,7 @@ const TeamMembers = [
     ,   uCircle : 'http://utb.cloud/uKnow/user/1532346069814_user'
     },
     {name: '付志成' ,title: '博士（美国威斯康辛大学）',image: img8 
-    , description : '研究领域：，交通诊断，信号配时，交通统计应用' 
+    , description : '研究领域：云服务架构，前端设计，前后端整合' 
     ,  uCircle : 'http://utb.cloud/uKnow/user/1532315609523_user'
     },
 
