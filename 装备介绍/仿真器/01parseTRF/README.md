@@ -1,5 +1,7 @@
 TRF文件解析csv：
 
+`装备` test -> `组件`   TRF解析成ZIP压缩包  [link](http://utb.cloud/uDev/item/9b7047c9fufb9bfu48c5fu83c9fu89ad97d71ef7)  
+
 #### 功能介绍
 
 ​	此装备能够拆解CORSIM生成的TRF文件，将整一个大网络按照`记录类型`为单位解构成为一个又csv文件组成的文件夹，这一过程主要能够帮助用户以更简单的方式了解TRF文件中的道路组成，并且能够截取并为使用特定的`记录类型`csv文件提供了可能。
