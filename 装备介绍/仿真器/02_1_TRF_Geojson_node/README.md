@@ -1,5 +1,8 @@
 TRF文件解析geojson_node
 
+`装备` CORSIM仿真器装备集 -> `组件`   TRF解析geojson_Node  [link](http://utb.cloud/uDev/item/75396443fue236fu4018fuac0afuaa357bec11b2)  
+
+
 #### 功能介绍
 
 ​	此装备能够解析TRF文件中的`节点`(node)信息，并且将节点信息储存于geojson格式的文件中，实现从TRAFED编辑器中的直角坐标系向实际的地理坐标系的投影，主要用于路网信息在实际地图中展示。
