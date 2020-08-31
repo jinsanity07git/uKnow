@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-UTB_echarts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="chart001" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_chart001 = echarts.init(
+            document.getElementById('chart001'), 'dark', {renderer: 'canvas'});
+       var option_chart001 = {
+    "radiusAxis": {
+        "type": "category",
+        "data": [
+            "\u5468\u4e00",
+            "\u5468\u4e8c",
+            "\u5468\u4e09",
+            "\u5468\u56db"
+        ],
+        "z": 10
+    },
+    "legend": {
+        "show": true,
+        " data": [
+            "A",
+            "B",
+            "C"
+        ]
+    },
+    "series": [
+        {
+            "type": "bar",
+            "coordinateSystem": "polar",
+            "data": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "name": "A",
+            "stack": "a"
+        },
+        {
+            "type": "bar",
+            "coordinateSystem": "polar",
+            "data": [
+                2,
+                4,
+                6,
+                8
+            ],
+            "name": "B",
+            "stack": "a"
+        },
+        {
+            "type": "bar",
+            "coordinateSystem": "polar",
+            "data": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "name": "C",
+            "stack": "a"
+        }
+    ],
+    "angleAxis": {},
+    "polar": {}
+};
+        chart_chart001.setOption(option_chart001);
+    </script>
+</body>
+</html>

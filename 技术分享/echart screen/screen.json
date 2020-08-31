@@ -1,0 +1,35 @@
+{"radiusAxis": {
+    "type": "category",
+    "data_Array": "['周一', '周二', '周三', '周四']",
+    "z_number": "10"
+  },
+  "legend": {
+    "show_boolean": "true",
+    " data_Array": "['A', 'B', 'C']"
+  },
+  "series": {
+    "series": [
+      {
+        "type": "bar",
+        "coordinateSystem": "polar",
+        "data_Array": "[1, 2, 3, 4]",
+        "name": "A",
+        "stack": "a"
+      },
+      {
+        "type": "bar",
+        "coordinateSystem": "polar",
+        "data_Array": "[ 2, 4, 6, 8]",
+        "name": "B",
+        "stack": "a"
+      },
+      {
+        "type": "bar",
+        "coordinateSystem": "polar",
+        "data_Array": "[1, 2, 3, 4]",
+        "name": "C",
+        "stack": "a"
+      }
+    ]
+  }
+}

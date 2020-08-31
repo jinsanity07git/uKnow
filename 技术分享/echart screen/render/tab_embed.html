@@ -1,0 +1,17 @@
+{% import 'macro' as macro %}
+<div id="pyec_tab">
+    {{ macro.generate_tab_css() }}
+    {{ macro.display_tablinks(chart) }}
+    <div class="box">
+        {% for c in chart %}
+            {% if c._component_type in ("table", "image") %}
+                {{ macro.gen_components_content(c) }}
+            {% else %}
+                {{ macro.render_chart_content(c) }}
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    {{ macro.switch_tabs() }}
+</div>
+

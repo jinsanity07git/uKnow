@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-UTB_echarts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <h1>UTB_echart</h1>
+        <p>编辑问卷输入: <a href="http://utb.cloud/uDev_Beta/itemversion/data_editor/0b1467f4fu7244fu401ffu8584fu37dd90d7b67d/1">
+                        echarts</a>
+        </p>
+
+    <div id="chart001" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_chart001 = echarts.init(
+            document.getElementById('chart001'), 'dark', {renderer: 'canvas'});
+       var option_chart001 = {{UTB_echarts|safe}};
+        chart_chart001.setOption(option_chart001);
+    </script>
+</body>
+</html>
