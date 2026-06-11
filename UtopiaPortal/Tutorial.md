@@ -126,6 +126,7 @@ href= => to=
 
 
 
+{% raw %}
 ```jsx
 <header className="masthead" style={{backgroundImage :'url("' + this.props.image + '")'}}>
   
@@ -136,6 +137,7 @@ href= => to=
    
   use `` instead of ''  (backtick)
 ```
+{% endraw %}
 
 [Setting background image as prop in react](https://stackoverflow.com/questions/49740341/setting-background-image-as-prop-in-react) 
 
@@ -290,4 +292,3 @@ export default zh_CN;
 ```
 <a href="https://www.thesitewizard.com/" target="_blank">thesitewizard.com</a>
 ```
-
